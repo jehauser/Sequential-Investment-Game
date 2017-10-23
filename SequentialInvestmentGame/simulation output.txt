@@ -1,3 +1,1781 @@
-numStages = 30, p = 0.700000, populationSize = 200
+numStages = 10, p = 0.500000, populationSize = 10
+
+numStages = 10, p = 0.500000, populationSize = 20
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 10, p = 0.500000, populationSize = 30
+
+numStages = 10, p = 0.500000, populationSize = 40
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 10, p = 0.500000, populationSize = 50
+
+numStages = 10, p = 0.500000, populationSize = 60
+
+numStages = 10, p = 0.500000, populationSize = 70
+
+numStages = 10, p = 0.500000, populationSize = 80
+
+numStages = 10, p = 0.500000, populationSize = 90
+Strategy 5 (0.500000) was evolutionary stable
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 10, p = 0.500000, populationSize = 100
+
+numStages = 10, p = 0.600000, populationSize = 10
+
+numStages = 10, p = 0.600000, populationSize = 20
+
+numStages = 10, p = 0.600000, populationSize = 30
+
+numStages = 10, p = 0.600000, populationSize = 40
+Strategy 6 (0.600000) was evolutionary stable
+Strategy 7 (0.700000) was evolutionary stable
 Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 10, p = 0.600000, populationSize = 50
+
+numStages = 10, p = 0.600000, populationSize = 60
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 10, p = 0.600000, populationSize = 70
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 10, p = 0.600000, populationSize = 80
+
+numStages = 10, p = 0.600000, populationSize = 90
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 10, p = 0.600000, populationSize = 100
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 10, p = 0.700000, populationSize = 10
+
+numStages = 10, p = 0.700000, populationSize = 20
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 10, p = 0.700000, populationSize = 30
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 10, p = 0.700000, populationSize = 40
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 10, p = 0.700000, populationSize = 50
+
+numStages = 10, p = 0.700000, populationSize = 60
+
+numStages = 10, p = 0.700000, populationSize = 70
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 10, p = 0.700000, populationSize = 80
+
+numStages = 10, p = 0.700000, populationSize = 90
+
+numStages = 10, p = 0.700000, populationSize = 100
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 10, p = 0.800000, populationSize = 10
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 10, p = 0.800000, populationSize = 20
+
+numStages = 10, p = 0.800000, populationSize = 30
+
+numStages = 10, p = 0.800000, populationSize = 40
+
+numStages = 10, p = 0.800000, populationSize = 50
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 10, p = 0.800000, populationSize = 60
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 10, p = 0.800000, populationSize = 70
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 10, p = 0.800000, populationSize = 80
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 10, p = 0.800000, populationSize = 90
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 10, p = 0.800000, populationSize = 100
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 10, p = 0.900000, populationSize = 10
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 10, p = 0.900000, populationSize = 20
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 10, p = 0.900000, populationSize = 30
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 10, p = 0.900000, populationSize = 40
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 10, p = 0.900000, populationSize = 50
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 10, p = 0.900000, populationSize = 60
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 10, p = 0.900000, populationSize = 70
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 10, p = 0.900000, populationSize = 80
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 10, p = 0.900000, populationSize = 90
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 10, p = 0.900000, populationSize = 100
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 10, p = 1.000000, populationSize = 10
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 10, p = 1.000000, populationSize = 20
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 10, p = 1.000000, populationSize = 30
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 10, p = 1.000000, populationSize = 40
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 10, p = 1.000000, populationSize = 50
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 10, p = 1.000000, populationSize = 60
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 10, p = 1.000000, populationSize = 70
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 10, p = 1.000000, populationSize = 80
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 10, p = 1.000000, populationSize = 90
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 10, p = 1.000000, populationSize = 100
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 20, p = 0.500000, populationSize = 10
+
+numStages = 20, p = 0.500000, populationSize = 20
+Strategy 3 (0.300000) was evolutionary stable
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 20, p = 0.500000, populationSize = 30
+Strategy 3 (0.300000) was evolutionary stable
+
+numStages = 20, p = 0.500000, populationSize = 40
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 20, p = 0.500000, populationSize = 50
+
+numStages = 20, p = 0.500000, populationSize = 60
+
+numStages = 20, p = 0.500000, populationSize = 70
+Strategy 4 (0.400000) was evolutionary stable
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 20, p = 0.500000, populationSize = 80
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 20, p = 0.500000, populationSize = 90
+Strategy 3 (0.300000) was evolutionary stable
+Strategy 4 (0.400000) was evolutionary stable
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 20, p = 0.500000, populationSize = 100
+
+numStages = 20, p = 0.600000, populationSize = 10
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 20, p = 0.600000, populationSize = 20
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 20, p = 0.600000, populationSize = 30
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 20, p = 0.600000, populationSize = 40
+
+numStages = 20, p = 0.600000, populationSize = 50
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 20, p = 0.600000, populationSize = 60
+
+numStages = 20, p = 0.600000, populationSize = 70
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 20, p = 0.600000, populationSize = 80
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 20, p = 0.600000, populationSize = 90
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 20, p = 0.600000, populationSize = 100
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 20, p = 0.700000, populationSize = 10
+
+numStages = 20, p = 0.700000, populationSize = 20
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 20, p = 0.700000, populationSize = 30
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 20, p = 0.700000, populationSize = 40
+
+numStages = 20, p = 0.700000, populationSize = 50
+
+numStages = 20, p = 0.700000, populationSize = 60
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 20, p = 0.700000, populationSize = 70
+
+numStages = 20, p = 0.700000, populationSize = 80
+Strategy 7 (0.700000) was evolutionary stable
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 20, p = 0.700000, populationSize = 90
+Strategy 7 (0.700000) was evolutionary stable
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 20, p = 0.700000, populationSize = 100
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 20, p = 0.800000, populationSize = 10
+
+numStages = 20, p = 0.800000, populationSize = 20
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 20, p = 0.800000, populationSize = 30
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 20, p = 0.800000, populationSize = 40
+
+numStages = 20, p = 0.800000, populationSize = 50
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 20, p = 0.800000, populationSize = 60
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 20, p = 0.800000, populationSize = 70
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 20, p = 0.800000, populationSize = 80
+Strategy 8 (0.800000) was evolutionary stable
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 20, p = 0.800000, populationSize = 90
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 20, p = 0.800000, populationSize = 100
+
+numStages = 20, p = 0.900000, populationSize = 10
+
+numStages = 20, p = 0.900000, populationSize = 20
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 20, p = 0.900000, populationSize = 30
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 20, p = 0.900000, populationSize = 40
+
+numStages = 20, p = 0.900000, populationSize = 50
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 20, p = 0.900000, populationSize = 60
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 20, p = 0.900000, populationSize = 70
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 20, p = 0.900000, populationSize = 80
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 20, p = 0.900000, populationSize = 90
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 20, p = 0.900000, populationSize = 100
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 20, p = 1.000000, populationSize = 10
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 20, p = 1.000000, populationSize = 20
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 20, p = 1.000000, populationSize = 30
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 20, p = 1.000000, populationSize = 40
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 20, p = 1.000000, populationSize = 50
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 20, p = 1.000000, populationSize = 60
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 20, p = 1.000000, populationSize = 70
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 20, p = 1.000000, populationSize = 80
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 20, p = 1.000000, populationSize = 90
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 20, p = 1.000000, populationSize = 100
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 30, p = 0.500000, populationSize = 10
+
+numStages = 30, p = 0.500000, populationSize = 20
+Strategy 3 (0.300000) was evolutionary stable
+
+numStages = 30, p = 0.500000, populationSize = 30
+
+numStages = 30, p = 0.500000, populationSize = 40
+Strategy 3 (0.300000) was evolutionary stable
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 30, p = 0.500000, populationSize = 50
+
+numStages = 30, p = 0.500000, populationSize = 60
+
+numStages = 30, p = 0.500000, populationSize = 70
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 30, p = 0.500000, populationSize = 80
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 30, p = 0.500000, populationSize = 90
+Strategy 3 (0.300000) was evolutionary stable
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 30, p = 0.500000, populationSize = 100
+
+numStages = 30, p = 0.600000, populationSize = 10
+Strategy 4 (0.400000) was evolutionary stable
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 30, p = 0.600000, populationSize = 20
+
+numStages = 30, p = 0.600000, populationSize = 30
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 30, p = 0.600000, populationSize = 40
+
+numStages = 30, p = 0.600000, populationSize = 50
+
+numStages = 30, p = 0.600000, populationSize = 60
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 30, p = 0.600000, populationSize = 70
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 30, p = 0.600000, populationSize = 80
+Strategy 5 (0.500000) was evolutionary stable
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 30, p = 0.600000, populationSize = 90
+Strategy 5 (0.500000) was evolutionary stable
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 30, p = 0.600000, populationSize = 100
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 30, p = 0.700000, populationSize = 10
+
+numStages = 30, p = 0.700000, populationSize = 20
+
+numStages = 30, p = 0.700000, populationSize = 30
+
+numStages = 30, p = 0.700000, populationSize = 40
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 30, p = 0.700000, populationSize = 50
+
+numStages = 30, p = 0.700000, populationSize = 60
+Strategy 6 (0.600000) was evolutionary stable
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 30, p = 0.700000, populationSize = 70
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 30, p = 0.700000, populationSize = 80
+Strategy 6 (0.600000) was evolutionary stable
+Strategy 7 (0.700000) was evolutionary stable
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 30, p = 0.700000, populationSize = 90
+Strategy 7 (0.700000) was evolutionary stable
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 30, p = 0.700000, populationSize = 100
+
+numStages = 30, p = 0.800000, populationSize = 10
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 30, p = 0.800000, populationSize = 20
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 30, p = 0.800000, populationSize = 30
+
+numStages = 30, p = 0.800000, populationSize = 40
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 30, p = 0.800000, populationSize = 50
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 30, p = 0.800000, populationSize = 60
+Strategy 8 (0.800000) was evolutionary stable
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 30, p = 0.800000, populationSize = 70
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 30, p = 0.800000, populationSize = 80
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 30, p = 0.800000, populationSize = 90
+Strategy 7 (0.700000) was evolutionary stable
+Strategy 8 (0.800000) was evolutionary stable
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 30, p = 0.800000, populationSize = 100
+
+numStages = 30, p = 0.900000, populationSize = 10
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 30, p = 0.900000, populationSize = 20
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 30, p = 0.900000, populationSize = 30
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 30, p = 0.900000, populationSize = 40
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 30, p = 0.900000, populationSize = 50
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 30, p = 0.900000, populationSize = 60
+
+numStages = 30, p = 0.900000, populationSize = 70
+
+numStages = 30, p = 0.900000, populationSize = 80
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 30, p = 0.900000, populationSize = 90
+
+numStages = 30, p = 0.900000, populationSize = 100
+
+numStages = 30, p = 1.000000, populationSize = 10
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 30, p = 1.000000, populationSize = 20
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 30, p = 1.000000, populationSize = 30
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 30, p = 1.000000, populationSize = 40
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 30, p = 1.000000, populationSize = 50
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 30, p = 1.000000, populationSize = 60
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 30, p = 1.000000, populationSize = 70
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 30, p = 1.000000, populationSize = 80
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 30, p = 1.000000, populationSize = 90
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 30, p = 1.000000, populationSize = 100
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 40, p = 0.500000, populationSize = 10
+Strategy 1 (0.100000) was evolutionary stable
+
+numStages = 40, p = 0.500000, populationSize = 20
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 40, p = 0.500000, populationSize = 30
+Strategy 2 (0.200000) was evolutionary stable
+Strategy 3 (0.300000) was evolutionary stable
+
+numStages = 40, p = 0.500000, populationSize = 40
+Strategy 2 (0.200000) was evolutionary stable
+Strategy 3 (0.300000) was evolutionary stable
+
+numStages = 40, p = 0.500000, populationSize = 50
+Strategy 3 (0.300000) was evolutionary stable
+
+numStages = 40, p = 0.500000, populationSize = 60
+Strategy 2 (0.200000) was evolutionary stable
+Strategy 3 (0.300000) was evolutionary stable
+
+numStages = 40, p = 0.500000, populationSize = 70
+
+numStages = 40, p = 0.500000, populationSize = 80
+Strategy 2 (0.200000) was evolutionary stable
+Strategy 3 (0.300000) was evolutionary stable
+
+numStages = 40, p = 0.500000, populationSize = 90
+Strategy 3 (0.300000) was evolutionary stable
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 40, p = 0.500000, populationSize = 100
+
+numStages = 40, p = 0.600000, populationSize = 10
+
+numStages = 40, p = 0.600000, populationSize = 20
+Strategy 3 (0.300000) was evolutionary stable
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 40, p = 0.600000, populationSize = 30
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 40, p = 0.600000, populationSize = 40
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 40, p = 0.600000, populationSize = 50
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 40, p = 0.600000, populationSize = 60
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 40, p = 0.600000, populationSize = 70
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 40, p = 0.600000, populationSize = 80
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 40, p = 0.600000, populationSize = 90
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 40, p = 0.600000, populationSize = 100
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 40, p = 0.700000, populationSize = 10
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 40, p = 0.700000, populationSize = 20
+
+numStages = 40, p = 0.700000, populationSize = 30
+
+numStages = 40, p = 0.700000, populationSize = 40
+
+numStages = 40, p = 0.700000, populationSize = 50
+
+numStages = 40, p = 0.700000, populationSize = 60
+
+numStages = 40, p = 0.700000, populationSize = 70
+
+numStages = 40, p = 0.700000, populationSize = 80
+Strategy 6 (0.600000) was evolutionary stable
+Strategy 7 (0.700000) was evolutionary stable
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 40, p = 0.700000, populationSize = 90
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 40, p = 0.700000, populationSize = 100
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 40, p = 0.800000, populationSize = 10
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 40, p = 0.800000, populationSize = 20
+
+numStages = 40, p = 0.800000, populationSize = 30
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 40, p = 0.800000, populationSize = 40
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 40, p = 0.800000, populationSize = 50
+
+numStages = 40, p = 0.800000, populationSize = 60
+
+numStages = 40, p = 0.800000, populationSize = 70
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 40, p = 0.800000, populationSize = 80
+
+numStages = 40, p = 0.800000, populationSize = 90
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 40, p = 0.800000, populationSize = 100
+
+numStages = 40, p = 0.900000, populationSize = 10
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 40, p = 0.900000, populationSize = 20
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 40, p = 0.900000, populationSize = 30
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 40, p = 0.900000, populationSize = 40
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 40, p = 0.900000, populationSize = 50
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 40, p = 0.900000, populationSize = 60
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 40, p = 0.900000, populationSize = 70
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 40, p = 0.900000, populationSize = 80
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 40, p = 0.900000, populationSize = 90
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 40, p = 0.900000, populationSize = 100
+
+numStages = 40, p = 1.000000, populationSize = 10
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 40, p = 1.000000, populationSize = 20
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 40, p = 1.000000, populationSize = 30
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 40, p = 1.000000, populationSize = 40
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 40, p = 1.000000, populationSize = 50
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 40, p = 1.000000, populationSize = 60
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 40, p = 1.000000, populationSize = 70
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 40, p = 1.000000, populationSize = 80
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 40, p = 1.000000, populationSize = 90
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 40, p = 1.000000, populationSize = 100
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 50, p = 0.500000, populationSize = 10
+
+numStages = 50, p = 0.500000, populationSize = 20
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 50, p = 0.500000, populationSize = 30
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 50, p = 0.500000, populationSize = 40
+
+numStages = 50, p = 0.500000, populationSize = 50
+Strategy 3 (0.300000) was evolutionary stable
+
+numStages = 50, p = 0.500000, populationSize = 60
+Strategy 3 (0.300000) was evolutionary stable
+
+numStages = 50, p = 0.500000, populationSize = 70
+Strategy 3 (0.300000) was evolutionary stable
+
+numStages = 50, p = 0.500000, populationSize = 80
+Strategy 3 (0.300000) was evolutionary stable
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 50, p = 0.500000, populationSize = 90
+Strategy 2 (0.200000) was evolutionary stable
+Strategy 3 (0.300000) was evolutionary stable
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 50, p = 0.500000, populationSize = 100
+Strategy 3 (0.300000) was evolutionary stable
+
+numStages = 50, p = 0.600000, populationSize = 10
+Strategy 3 (0.300000) was evolutionary stable
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 50, p = 0.600000, populationSize = 20
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 50, p = 0.600000, populationSize = 30
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 50, p = 0.600000, populationSize = 40
+
+numStages = 50, p = 0.600000, populationSize = 50
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 50, p = 0.600000, populationSize = 60
+
+numStages = 50, p = 0.600000, populationSize = 70
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 50, p = 0.600000, populationSize = 80
+
+numStages = 50, p = 0.600000, populationSize = 90
+Strategy 4 (0.400000) was evolutionary stable
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 50, p = 0.600000, populationSize = 100
+
+numStages = 50, p = 0.700000, populationSize = 10
+Strategy 5 (0.500000) was evolutionary stable
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 50, p = 0.700000, populationSize = 20
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 50, p = 0.700000, populationSize = 30
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 50, p = 0.700000, populationSize = 40
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 50, p = 0.700000, populationSize = 50
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 50, p = 0.700000, populationSize = 60
+Strategy 6 (0.600000) was evolutionary stable
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 50, p = 0.700000, populationSize = 70
+Strategy 6 (0.600000) was evolutionary stable
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 50, p = 0.700000, populationSize = 80
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 50, p = 0.700000, populationSize = 90
+Strategy 6 (0.600000) was evolutionary stable
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 50, p = 0.700000, populationSize = 100
+
+numStages = 50, p = 0.800000, populationSize = 10
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 50, p = 0.800000, populationSize = 20
+Strategy 7 (0.700000) was evolutionary stable
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 50, p = 0.800000, populationSize = 30
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 50, p = 0.800000, populationSize = 40
+
+numStages = 50, p = 0.800000, populationSize = 50
+Strategy 8 (0.800000) was evolutionary stable
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 50, p = 0.800000, populationSize = 60
+
+numStages = 50, p = 0.800000, populationSize = 70
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 50, p = 0.800000, populationSize = 80
+Strategy 7 (0.700000) was evolutionary stable
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 50, p = 0.800000, populationSize = 90
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 50, p = 0.800000, populationSize = 100
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 50, p = 0.900000, populationSize = 10
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 50, p = 0.900000, populationSize = 20
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 50, p = 0.900000, populationSize = 30
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 50, p = 0.900000, populationSize = 40
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 50, p = 0.900000, populationSize = 50
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 50, p = 0.900000, populationSize = 60
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 50, p = 0.900000, populationSize = 70
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 50, p = 0.900000, populationSize = 80
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 50, p = 0.900000, populationSize = 90
+Strategy 8 (0.800000) was evolutionary stable
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 50, p = 0.900000, populationSize = 100
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 50, p = 1.000000, populationSize = 10
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 50, p = 1.000000, populationSize = 20
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 50, p = 1.000000, populationSize = 30
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 50, p = 1.000000, populationSize = 40
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 50, p = 1.000000, populationSize = 50
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 50, p = 1.000000, populationSize = 60
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 50, p = 1.000000, populationSize = 70
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 50, p = 1.000000, populationSize = 80
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 50, p = 1.000000, populationSize = 90
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 50, p = 1.000000, populationSize = 100
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 60, p = 0.500000, populationSize = 10
+
+numStages = 60, p = 0.500000, populationSize = 20
+
+numStages = 60, p = 0.500000, populationSize = 30
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 60, p = 0.500000, populationSize = 40
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 60, p = 0.500000, populationSize = 50
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 60, p = 0.500000, populationSize = 60
+Strategy 2 (0.200000) was evolutionary stable
+Strategy 3 (0.300000) was evolutionary stable
+
+numStages = 60, p = 0.500000, populationSize = 70
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 60, p = 0.500000, populationSize = 80
+Strategy 2 (0.200000) was evolutionary stable
+Strategy 3 (0.300000) was evolutionary stable
+
+numStages = 60, p = 0.500000, populationSize = 90
+Strategy 3 (0.300000) was evolutionary stable
+
+numStages = 60, p = 0.500000, populationSize = 100
+
+numStages = 60, p = 0.600000, populationSize = 10
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 60, p = 0.600000, populationSize = 20
+
+numStages = 60, p = 0.600000, populationSize = 30
+Strategy 3 (0.300000) was evolutionary stable
+
+numStages = 60, p = 0.600000, populationSize = 40
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 60, p = 0.600000, populationSize = 50
+
+numStages = 60, p = 0.600000, populationSize = 60
+
+numStages = 60, p = 0.600000, populationSize = 70
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 60, p = 0.600000, populationSize = 80
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 60, p = 0.600000, populationSize = 90
+Strategy 4 (0.400000) was evolutionary stable
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 60, p = 0.600000, populationSize = 100
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 60, p = 0.700000, populationSize = 10
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 60, p = 0.700000, populationSize = 20
+
+numStages = 60, p = 0.700000, populationSize = 30
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 60, p = 0.700000, populationSize = 40
+
+numStages = 60, p = 0.700000, populationSize = 50
+
+numStages = 60, p = 0.700000, populationSize = 60
+
+numStages = 60, p = 0.700000, populationSize = 70
+Strategy 6 (0.600000) was evolutionary stable
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 60, p = 0.700000, populationSize = 80
+Strategy 6 (0.600000) was evolutionary stable
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 60, p = 0.700000, populationSize = 90
+Strategy 6 (0.600000) was evolutionary stable
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 60, p = 0.700000, populationSize = 100
+Strategy 6 (0.600000) was evolutionary stable
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 60, p = 0.800000, populationSize = 10
+Strategy 6 (0.600000) was evolutionary stable
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 60, p = 0.800000, populationSize = 20
+Strategy 7 (0.700000) was evolutionary stable
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 60, p = 0.800000, populationSize = 30
+Strategy 6 (0.600000) was evolutionary stable
+Strategy 7 (0.700000) was evolutionary stable
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 60, p = 0.800000, populationSize = 40
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 60, p = 0.800000, populationSize = 50
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 60, p = 0.800000, populationSize = 60
+
+numStages = 60, p = 0.800000, populationSize = 70
+Strategy 7 (0.700000) was evolutionary stable
+Strategy 8 (0.800000) was evolutionary stable
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 60, p = 0.800000, populationSize = 80
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 60, p = 0.800000, populationSize = 90
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 60, p = 0.800000, populationSize = 100
+
+numStages = 60, p = 0.900000, populationSize = 10
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 60, p = 0.900000, populationSize = 20
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 60, p = 0.900000, populationSize = 30
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 60, p = 0.900000, populationSize = 40
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 60, p = 0.900000, populationSize = 50
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 60, p = 0.900000, populationSize = 60
+Strategy 8 (0.800000) was evolutionary stable
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 60, p = 0.900000, populationSize = 70
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 60, p = 0.900000, populationSize = 80
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 60, p = 0.900000, populationSize = 90
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 60, p = 0.900000, populationSize = 100
+
+numStages = 60, p = 1.000000, populationSize = 10
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 60, p = 1.000000, populationSize = 20
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 60, p = 1.000000, populationSize = 30
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 60, p = 1.000000, populationSize = 40
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 60, p = 1.000000, populationSize = 50
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 60, p = 1.000000, populationSize = 60
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 60, p = 1.000000, populationSize = 70
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 60, p = 1.000000, populationSize = 80
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 60, p = 1.000000, populationSize = 90
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 60, p = 1.000000, populationSize = 100
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 70, p = 0.500000, populationSize = 10
+Strategy 1 (0.100000) was evolutionary stable
+
+numStages = 70, p = 0.500000, populationSize = 20
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 70, p = 0.500000, populationSize = 30
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 70, p = 0.500000, populationSize = 40
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 70, p = 0.500000, populationSize = 50
+
+numStages = 70, p = 0.500000, populationSize = 60
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 70, p = 0.500000, populationSize = 70
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 70, p = 0.500000, populationSize = 80
+Strategy 2 (0.200000) was evolutionary stable
+Strategy 3 (0.300000) was evolutionary stable
+
+numStages = 70, p = 0.500000, populationSize = 90
+Strategy 3 (0.300000) was evolutionary stable
+
+numStages = 70, p = 0.500000, populationSize = 100
+
+numStages = 70, p = 0.600000, populationSize = 10
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 70, p = 0.600000, populationSize = 20
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 70, p = 0.600000, populationSize = 30
+
+numStages = 70, p = 0.600000, populationSize = 40
+Strategy 4 (0.400000) was evolutionary stable
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 70, p = 0.600000, populationSize = 50
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 70, p = 0.600000, populationSize = 60
+Strategy 3 (0.300000) was evolutionary stable
+
+numStages = 70, p = 0.600000, populationSize = 70
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 70, p = 0.600000, populationSize = 80
+Strategy 4 (0.400000) was evolutionary stable
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 70, p = 0.600000, populationSize = 90
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 70, p = 0.600000, populationSize = 100
+
+numStages = 70, p = 0.700000, populationSize = 10
+Strategy 5 (0.500000) was evolutionary stable
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 70, p = 0.700000, populationSize = 20
+
+numStages = 70, p = 0.700000, populationSize = 30
+Strategy 5 (0.500000) was evolutionary stable
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 70, p = 0.700000, populationSize = 40
+Strategy 5 (0.500000) was evolutionary stable
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 70, p = 0.700000, populationSize = 50
+
+numStages = 70, p = 0.700000, populationSize = 60
+
+numStages = 70, p = 0.700000, populationSize = 70
+
+numStages = 70, p = 0.700000, populationSize = 80
+Strategy 6 (0.600000) was evolutionary stable
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 70, p = 0.700000, populationSize = 90
+Strategy 6 (0.600000) was evolutionary stable
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 70, p = 0.700000, populationSize = 100
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 70, p = 0.800000, populationSize = 10
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 70, p = 0.800000, populationSize = 20
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 70, p = 0.800000, populationSize = 30
+Strategy 7 (0.700000) was evolutionary stable
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 70, p = 0.800000, populationSize = 40
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 70, p = 0.800000, populationSize = 50
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 70, p = 0.800000, populationSize = 60
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 70, p = 0.800000, populationSize = 70
+Strategy 7 (0.700000) was evolutionary stable
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 70, p = 0.800000, populationSize = 80
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 70, p = 0.800000, populationSize = 90
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 70, p = 0.800000, populationSize = 100
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 70, p = 0.900000, populationSize = 10
+Strategy 8 (0.800000) was evolutionary stable
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 70, p = 0.900000, populationSize = 20
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 70, p = 0.900000, populationSize = 30
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 70, p = 0.900000, populationSize = 40
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 70, p = 0.900000, populationSize = 50
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 70, p = 0.900000, populationSize = 60
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 70, p = 0.900000, populationSize = 70
+Strategy 8 (0.800000) was evolutionary stable
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 70, p = 0.900000, populationSize = 80
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 70, p = 0.900000, populationSize = 90
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 70, p = 0.900000, populationSize = 100
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 70, p = 1.000000, populationSize = 10
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 70, p = 1.000000, populationSize = 20
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 70, p = 1.000000, populationSize = 30
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 70, p = 1.000000, populationSize = 40
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 70, p = 1.000000, populationSize = 50
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 70, p = 1.000000, populationSize = 60
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 70, p = 1.000000, populationSize = 70
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 70, p = 1.000000, populationSize = 80
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 70, p = 1.000000, populationSize = 90
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 70, p = 1.000000, populationSize = 100
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 80, p = 0.500000, populationSize = 10
+Strategy 1 (0.100000) was evolutionary stable
+
+numStages = 80, p = 0.500000, populationSize = 20
+Strategy 1 (0.100000) was evolutionary stable
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 80, p = 0.500000, populationSize = 30
+Strategy 1 (0.100000) was evolutionary stable
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 80, p = 0.500000, populationSize = 40
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 80, p = 0.500000, populationSize = 50
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 80, p = 0.500000, populationSize = 60
+
+numStages = 80, p = 0.500000, populationSize = 70
+
+numStages = 80, p = 0.500000, populationSize = 80
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 80, p = 0.500000, populationSize = 90
+Strategy 2 (0.200000) was evolutionary stable
+Strategy 3 (0.300000) was evolutionary stable
+
+numStages = 80, p = 0.500000, populationSize = 100
+
+numStages = 80, p = 0.600000, populationSize = 10
+
+numStages = 80, p = 0.600000, populationSize = 20
+
+numStages = 80, p = 0.600000, populationSize = 30
+
+numStages = 80, p = 0.600000, populationSize = 40
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 80, p = 0.600000, populationSize = 50
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 80, p = 0.600000, populationSize = 60
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 80, p = 0.600000, populationSize = 70
+Strategy 4 (0.400000) was evolutionary stable
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 80, p = 0.600000, populationSize = 80
+Strategy 3 (0.300000) was evolutionary stable
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 80, p = 0.600000, populationSize = 90
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 80, p = 0.600000, populationSize = 100
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 80, p = 0.700000, populationSize = 10
+Strategy 5 (0.500000) was evolutionary stable
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 80, p = 0.700000, populationSize = 20
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 80, p = 0.700000, populationSize = 30
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 80, p = 0.700000, populationSize = 40
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 80, p = 0.700000, populationSize = 50
+
+numStages = 80, p = 0.700000, populationSize = 60
+Strategy 5 (0.500000) was evolutionary stable
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 80, p = 0.700000, populationSize = 70
+Strategy 6 (0.600000) was evolutionary stable
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 80, p = 0.700000, populationSize = 80
+
+numStages = 80, p = 0.700000, populationSize = 90
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 80, p = 0.700000, populationSize = 100
+
+numStages = 80, p = 0.800000, populationSize = 10
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 80, p = 0.800000, populationSize = 20
+Strategy 7 (0.700000) was evolutionary stable
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 80, p = 0.800000, populationSize = 30
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 80, p = 0.800000, populationSize = 40
+Strategy 7 (0.700000) was evolutionary stable
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 80, p = 0.800000, populationSize = 50
+
+numStages = 80, p = 0.800000, populationSize = 60
+
+numStages = 80, p = 0.800000, populationSize = 70
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 80, p = 0.800000, populationSize = 80
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 80, p = 0.800000, populationSize = 90
+Strategy 7 (0.700000) was evolutionary stable
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 80, p = 0.800000, populationSize = 100
+
+numStages = 80, p = 0.900000, populationSize = 10
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 80, p = 0.900000, populationSize = 20
+Strategy 8 (0.800000) was evolutionary stable
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 80, p = 0.900000, populationSize = 30
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 80, p = 0.900000, populationSize = 40
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 80, p = 0.900000, populationSize = 50
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 80, p = 0.900000, populationSize = 60
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 80, p = 0.900000, populationSize = 70
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 80, p = 0.900000, populationSize = 80
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 80, p = 0.900000, populationSize = 90
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 80, p = 0.900000, populationSize = 100
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 80, p = 1.000000, populationSize = 10
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 80, p = 1.000000, populationSize = 20
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 80, p = 1.000000, populationSize = 30
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 80, p = 1.000000, populationSize = 40
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 80, p = 1.000000, populationSize = 50
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 80, p = 1.000000, populationSize = 60
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 80, p = 1.000000, populationSize = 70
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 80, p = 1.000000, populationSize = 80
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 80, p = 1.000000, populationSize = 90
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 80, p = 1.000000, populationSize = 100
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 90, p = 0.500000, populationSize = 10
+Strategy 1 (0.100000) was evolutionary stable
+
+numStages = 90, p = 0.500000, populationSize = 20
+Strategy 1 (0.100000) was evolutionary stable
+
+numStages = 90, p = 0.500000, populationSize = 30
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 90, p = 0.500000, populationSize = 40
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 90, p = 0.500000, populationSize = 50
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 90, p = 0.500000, populationSize = 60
+Strategy 1 (0.100000) was evolutionary stable
+
+numStages = 90, p = 0.500000, populationSize = 70
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 90, p = 0.500000, populationSize = 80
+Strategy 2 (0.200000) was evolutionary stable
+Strategy 3 (0.300000) was evolutionary stable
+
+numStages = 90, p = 0.500000, populationSize = 90
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 90, p = 0.500000, populationSize = 100
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 90, p = 0.600000, populationSize = 10
+Strategy 3 (0.300000) was evolutionary stable
+
+numStages = 90, p = 0.600000, populationSize = 20
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 90, p = 0.600000, populationSize = 30
+Strategy 3 (0.300000) was evolutionary stable
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 90, p = 0.600000, populationSize = 40
+
+numStages = 90, p = 0.600000, populationSize = 50
+
+numStages = 90, p = 0.600000, populationSize = 60
+
+numStages = 90, p = 0.600000, populationSize = 70
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 90, p = 0.600000, populationSize = 80
+Strategy 4 (0.400000) was evolutionary stable
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 90, p = 0.600000, populationSize = 90
+Strategy 3 (0.300000) was evolutionary stable
+Strategy 4 (0.400000) was evolutionary stable
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 90, p = 0.600000, populationSize = 100
+
+numStages = 90, p = 0.700000, populationSize = 10
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 90, p = 0.700000, populationSize = 20
+Strategy 5 (0.500000) was evolutionary stable
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 90, p = 0.700000, populationSize = 30
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 90, p = 0.700000, populationSize = 40
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 90, p = 0.700000, populationSize = 50
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 90, p = 0.700000, populationSize = 60
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 90, p = 0.700000, populationSize = 70
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 90, p = 0.700000, populationSize = 80
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 90, p = 0.700000, populationSize = 90
+Strategy 5 (0.500000) was evolutionary stable
+Strategy 6 (0.600000) was evolutionary stable
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 90, p = 0.700000, populationSize = 100
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 90, p = 0.800000, populationSize = 10
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 90, p = 0.800000, populationSize = 20
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 90, p = 0.800000, populationSize = 30
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 90, p = 0.800000, populationSize = 40
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 90, p = 0.800000, populationSize = 50
+Strategy 7 (0.700000) was evolutionary stable
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 90, p = 0.800000, populationSize = 60
+
+numStages = 90, p = 0.800000, populationSize = 70
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 90, p = 0.800000, populationSize = 80
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 90, p = 0.800000, populationSize = 90
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 90, p = 0.800000, populationSize = 100
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 90, p = 0.900000, populationSize = 10
+Strategy 8 (0.800000) was evolutionary stable
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 90, p = 0.900000, populationSize = 20
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 90, p = 0.900000, populationSize = 30
+
+numStages = 90, p = 0.900000, populationSize = 40
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 90, p = 0.900000, populationSize = 50
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 90, p = 0.900000, populationSize = 60
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 90, p = 0.900000, populationSize = 70
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 90, p = 0.900000, populationSize = 80
+Strategy 8 (0.800000) was evolutionary stable
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 90, p = 0.900000, populationSize = 90
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 90, p = 0.900000, populationSize = 100
+Strategy 8 (0.800000) was evolutionary stable
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 90, p = 1.000000, populationSize = 10
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 90, p = 1.000000, populationSize = 20
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 90, p = 1.000000, populationSize = 30
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 90, p = 1.000000, populationSize = 40
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 90, p = 1.000000, populationSize = 50
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 90, p = 1.000000, populationSize = 60
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 90, p = 1.000000, populationSize = 70
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 90, p = 1.000000, populationSize = 80
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 90, p = 1.000000, populationSize = 90
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 90, p = 1.000000, populationSize = 100
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 100, p = 0.500000, populationSize = 10
+Strategy 1 (0.100000) was evolutionary stable
+
+numStages = 100, p = 0.500000, populationSize = 20
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 100, p = 0.500000, populationSize = 30
+Strategy 1 (0.100000) was evolutionary stable
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 100, p = 0.500000, populationSize = 40
+
+numStages = 100, p = 0.500000, populationSize = 50
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 100, p = 0.500000, populationSize = 60
+Strategy 2 (0.200000) was evolutionary stable
+Strategy 3 (0.300000) was evolutionary stable
+
+numStages = 100, p = 0.500000, populationSize = 70
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 100, p = 0.500000, populationSize = 80
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 100, p = 0.500000, populationSize = 90
+Strategy 3 (0.300000) was evolutionary stable
+
+numStages = 100, p = 0.500000, populationSize = 100
+Strategy 2 (0.200000) was evolutionary stable
+
+numStages = 100, p = 0.600000, populationSize = 10
+Strategy 3 (0.300000) was evolutionary stable
+
+numStages = 100, p = 0.600000, populationSize = 20
+Strategy 3 (0.300000) was evolutionary stable
+
+numStages = 100, p = 0.600000, populationSize = 30
+Strategy 3 (0.300000) was evolutionary stable
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 100, p = 0.600000, populationSize = 40
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 100, p = 0.600000, populationSize = 50
+
+numStages = 100, p = 0.600000, populationSize = 60
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 100, p = 0.600000, populationSize = 70
+
+numStages = 100, p = 0.600000, populationSize = 80
+Strategy 3 (0.300000) was evolutionary stable
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 100, p = 0.600000, populationSize = 90
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 100, p = 0.600000, populationSize = 100
+Strategy 4 (0.400000) was evolutionary stable
+
+numStages = 100, p = 0.700000, populationSize = 10
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 100, p = 0.700000, populationSize = 20
+Strategy 5 (0.500000) was evolutionary stable
+
+numStages = 100, p = 0.700000, populationSize = 30
+Strategy 5 (0.500000) was evolutionary stable
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 100, p = 0.700000, populationSize = 40
+Strategy 5 (0.500000) was evolutionary stable
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 100, p = 0.700000, populationSize = 50
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 100, p = 0.700000, populationSize = 60
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 100, p = 0.700000, populationSize = 70
+
+numStages = 100, p = 0.700000, populationSize = 80
+Strategy 5 (0.500000) was evolutionary stable
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 100, p = 0.700000, populationSize = 90
+Strategy 5 (0.500000) was evolutionary stable
+Strategy 6 (0.600000) was evolutionary stable
+
+numStages = 100, p = 0.700000, populationSize = 100
+
+numStages = 100, p = 0.800000, populationSize = 10
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 100, p = 0.800000, populationSize = 20
+Strategy 7 (0.700000) was evolutionary stable
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 100, p = 0.800000, populationSize = 30
+Strategy 7 (0.700000) was evolutionary stable
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 100, p = 0.800000, populationSize = 40
+Strategy 7 (0.700000) was evolutionary stable
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 100, p = 0.800000, populationSize = 50
+
+numStages = 100, p = 0.800000, populationSize = 60
+
+numStages = 100, p = 0.800000, populationSize = 70
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 100, p = 0.800000, populationSize = 80
+Strategy 7 (0.700000) was evolutionary stable
+Strategy 8 (0.800000) was evolutionary stable
+
+numStages = 100, p = 0.800000, populationSize = 90
+Strategy 7 (0.700000) was evolutionary stable
+
+numStages = 100, p = 0.800000, populationSize = 100
+
+numStages = 100, p = 0.900000, populationSize = 10
+Strategy 8 (0.800000) was evolutionary stable
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 100, p = 0.900000, populationSize = 20
+
+numStages = 100, p = 0.900000, populationSize = 30
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 100, p = 0.900000, populationSize = 40
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 100, p = 0.900000, populationSize = 50
+
+numStages = 100, p = 0.900000, populationSize = 60
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 100, p = 0.900000, populationSize = 70
+Strategy 8 (0.800000) was evolutionary stable
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 100, p = 0.900000, populationSize = 80
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 100, p = 0.900000, populationSize = 90
+Strategy 8 (0.800000) was evolutionary stable
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 100, p = 0.900000, populationSize = 100
+Strategy 9 (0.900000) was evolutionary stable
+
+numStages = 100, p = 1.000000, populationSize = 10
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 100, p = 1.000000, populationSize = 20
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 100, p = 1.000000, populationSize = 30
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 100, p = 1.000000, populationSize = 40
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 100, p = 1.000000, populationSize = 50
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 100, p = 1.000000, populationSize = 60
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 100, p = 1.000000, populationSize = 70
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 100, p = 1.000000, populationSize = 80
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 100, p = 1.000000, populationSize = 90
+Strategy 10 (1.000000) was evolutionary stable
+
+numStages = 100, p = 1.000000, populationSize = 100
+Strategy 10 (1.000000) was evolutionary stable
 

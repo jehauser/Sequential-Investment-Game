@@ -20,11 +20,10 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="168" column="0" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+            <state relative-caret-position="442">
+              <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#238#270#0" expanded="false" />
                 <element signature="method#rollDice#0;class#Game#0" expanded="false" />
                 <element signature="e#908#931#0" expanded="false" />
                 <element signature="e#1120#1144#0" expanded="false" />
@@ -46,16 +45,23 @@
       <file leaf-file-name="Simulation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Simulation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="467">
+              <caret line="313" column="55" lean-forward="true" selection-start-line="313" selection-start-column="55" selection-end-line="313" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#7145#7172#0" expanded="false" />
-                <element signature="method#simResult2BinaryTable#0;class#Simulation#0" expanded="false" />
+                <element signature="e#449#486#0" expanded="false" />
+                <element signature="method#evolutionaryStabilityTest#0;class#Simulation#0" expanded="false" />
+                <element signature="method#isEvolutionaryStable#0;class#Simulation#0" expanded="false" />
+                <element signature="e#7241#7266#0" expanded="false" />
+                <element signature="e#7361#7392#0" expanded="false" />
+                <element signature="e#7624#7666#0" expanded="false" />
+                <element signature="e#9102#9143#0" expanded="false" />
+                <element signature="e#9660#9683#0" expanded="false" />
+                <element signature="method#nextStrategyProfile#0;class#Simulation#0" expanded="false" />
                 <element signature="method#binaryTable2WinPercentage#0;class#Simulation#0" expanded="false" />
-                <element signature="e#8686#8703#0" expanded="false" />
+                <element signature="e#12842#12859#0" expanded="false" />
                 <element signature="method#loadString#0;class#Simulation#0" expanded="false" />
-                <element signature="e#10783#10805#0" expanded="false" />
+                <element signature="e#14939#14961#0" expanded="false" />
                 <element signature="method#Simulation#0;class#Simulation#0" expanded="false" />
                 <element signature="method#main#0;class#Simulation#0" expanded="false" />
               </folding>
@@ -66,18 +72,8 @@
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86840">
-              <caret line="2255" column="25" lean-forward="false" selection-start-line="2255" selection-start-column="20" selection-end-line="2255" selection-end-column="25" />
+            <state relative-caret-position="323">
+              <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -109,7 +105,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -310,8 +306,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="-16" width="3872" height="2092" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -321,7 +316,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30216217" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14740191" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -346,18 +341,81 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Game.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#rollDice#0;class#Game#0" expanded="false" />
+            <element signature="e#908#931#0" expanded="false" />
+            <element signature="e#1120#1144#0" expanded="false" />
+            <element signature="e#1405#1427#0" expanded="false" />
+            <element signature="method#Game#0;class#Game#0" expanded="false" />
+            <element signature="class#GameCfg#0;class#Game#0" expanded="false" />
+            <element signature="class#Player#0;class#Game#0" expanded="false" />
+            <element signature="e#1971#2005#0" expanded="false" />
+            <element signature="e#2306#2323#0" expanded="false" />
+            <element signature="e#2574#2597#0" expanded="false" />
+            <element signature="e#2729#2754#0" expanded="false" />
+            <element signature="e#2866#2888#0" expanded="false" />
+            <element signature="method#Player#0;class#Player#0;class#Game#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Simulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="145" column="71" lean-forward="false" selection-start-line="145" selection-start-column="71" selection-end-line="145" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#449#486#0" expanded="false" />
+            <element signature="method#evolutionaryStabilityTest#0;class#Simulation#0" expanded="false" />
+            <element signature="method#isEvolutionaryStable#0;class#Simulation#0" expanded="false" />
+            <element signature="e#7241#7266#0" expanded="false" />
+            <element signature="e#7361#7392#0" expanded="false" />
+            <element signature="e#7624#7666#0" expanded="false" />
+            <element signature="e#9102#9143#0" expanded="false" />
+            <element signature="e#9660#9683#0" expanded="false" />
+            <element signature="method#nextStrategyProfile#0;class#Simulation#0" expanded="false" />
+            <element signature="method#binaryTable2WinPercentage#0;class#Simulation#0" expanded="false" />
+            <element signature="e#12842#12859#0" expanded="false" />
+            <element signature="method#loadString#0;class#Simulation#0" expanded="false" />
+            <element signature="e#14939#14961#0" expanded="false" />
+            <element signature="method#Simulation#0;class#Simulation#0" expanded="false" />
+            <element signature="method#main#0;class#Simulation#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38335">
+          <caret line="2255" column="25" lean-forward="false" selection-start-line="2255" selection-start-column="20" selection-end-line="2255" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="168" column="0" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#238#270#0" expanded="false" />
             <element signature="method#rollDice#0;class#Game#0" expanded="false" />
             <element signature="e#908#931#0" expanded="false" />
             <element signature="e#1120#1144#0" expanded="false" />
@@ -381,12 +439,19 @@
           <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7145#7172#0" expanded="false" />
-            <element signature="method#simResult2BinaryTable#0;class#Simulation#0" expanded="false" />
+            <element signature="e#449#486#0" expanded="false" />
+            <element signature="method#evolutionaryStabilityTest#0;class#Simulation#0" expanded="false" />
+            <element signature="method#isEvolutionaryStable#0;class#Simulation#0" expanded="false" />
+            <element signature="e#7241#7266#0" expanded="false" />
+            <element signature="e#7361#7392#0" expanded="false" />
+            <element signature="e#7624#7666#0" expanded="false" />
+            <element signature="e#9102#9143#0" expanded="false" />
+            <element signature="e#9660#9683#0" expanded="false" />
+            <element signature="method#nextStrategyProfile#0;class#Simulation#0" expanded="false" />
             <element signature="method#binaryTable2WinPercentage#0;class#Simulation#0" expanded="false" />
-            <element signature="e#8686#8703#0" expanded="false" />
+            <element signature="e#12842#12859#0" expanded="false" />
             <element signature="method#loadString#0;class#Simulation#0" expanded="false" />
-            <element signature="e#10783#10805#0" expanded="false" />
+            <element signature="e#14939#14961#0" expanded="false" />
             <element signature="method#Simulation#0;class#Simulation#0" expanded="false" />
             <element signature="method#main#0;class#Simulation#0" expanded="false" />
           </folding>
@@ -415,7 +480,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#238#270#0" expanded="false" />
             <element signature="method#rollDice#0;class#Game#0" expanded="false" />
             <element signature="e#908#931#0" expanded="false" />
             <element signature="e#1120#1144#0" expanded="false" />
@@ -439,12 +503,19 @@
           <caret line="84" column="116" lean-forward="false" selection-start-line="84" selection-start-column="116" selection-end-line="84" selection-end-column="116" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7145#7172#0" expanded="false" />
-            <element signature="method#simResult2BinaryTable#0;class#Simulation#0" expanded="false" />
+            <element signature="e#449#486#0" expanded="false" />
+            <element signature="method#evolutionaryStabilityTest#0;class#Simulation#0" expanded="false" />
+            <element signature="method#isEvolutionaryStable#0;class#Simulation#0" expanded="false" />
+            <element signature="e#7241#7266#0" expanded="false" />
+            <element signature="e#7361#7392#0" expanded="false" />
+            <element signature="e#7624#7666#0" expanded="false" />
+            <element signature="e#9102#9143#0" expanded="false" />
+            <element signature="e#9660#9683#0" expanded="false" />
+            <element signature="method#nextStrategyProfile#0;class#Simulation#0" expanded="false" />
             <element signature="method#binaryTable2WinPercentage#0;class#Simulation#0" expanded="false" />
-            <element signature="e#8686#8703#0" expanded="false" />
+            <element signature="e#12842#12859#0" expanded="false" />
             <element signature="method#loadString#0;class#Simulation#0" expanded="false" />
-            <element signature="e#10783#10805#0" expanded="false" />
+            <element signature="e#14939#14961#0" expanded="false" />
             <element signature="method#Simulation#0;class#Simulation#0" expanded="false" />
             <element signature="method#main#0;class#Simulation#0" expanded="false" />
           </folding>
@@ -457,7 +528,6 @@
           <caret line="93" column="17" lean-forward="false" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#238#270#0" expanded="false" />
             <element signature="method#rollDice#0;class#Game#0" expanded="false" />
             <element signature="e#908#931#0" expanded="false" />
             <element signature="e#1120#1144#0" expanded="false" />
@@ -481,12 +551,19 @@
           <caret line="74" column="41" lean-forward="true" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7145#7172#0" expanded="false" />
-            <element signature="method#simResult2BinaryTable#0;class#Simulation#0" expanded="false" />
+            <element signature="e#449#486#0" expanded="false" />
+            <element signature="method#evolutionaryStabilityTest#0;class#Simulation#0" expanded="false" />
+            <element signature="method#isEvolutionaryStable#0;class#Simulation#0" expanded="false" />
+            <element signature="e#7241#7266#0" expanded="false" />
+            <element signature="e#7361#7392#0" expanded="false" />
+            <element signature="e#7624#7666#0" expanded="false" />
+            <element signature="e#9102#9143#0" expanded="false" />
+            <element signature="e#9660#9683#0" expanded="false" />
+            <element signature="method#nextStrategyProfile#0;class#Simulation#0" expanded="false" />
             <element signature="method#binaryTable2WinPercentage#0;class#Simulation#0" expanded="false" />
-            <element signature="e#8686#8703#0" expanded="false" />
+            <element signature="e#12842#12859#0" expanded="false" />
             <element signature="method#loadString#0;class#Simulation#0" expanded="false" />
-            <element signature="e#10783#10805#0" expanded="false" />
+            <element signature="e#14939#14961#0" expanded="false" />
             <element signature="method#Simulation#0;class#Simulation#0" expanded="false" />
             <element signature="method#main#0;class#Simulation#0" expanded="false" />
           </folding>
@@ -508,7 +585,6 @@
           <caret line="93" column="17" lean-forward="false" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#238#270#0" expanded="false" />
             <element signature="method#rollDice#0;class#Game#0" expanded="false" />
             <element signature="e#908#931#0" expanded="false" />
             <element signature="e#1120#1144#0" expanded="false" />
@@ -538,6 +614,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9120">
           <caret line="228" column="20" lean-forward="false" selection-start-line="228" selection-start-column="20" selection-end-line="228" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -548,12 +625,19 @@
           <caret line="29" column="56" lean-forward="false" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7145#7172#0" expanded="false" />
-            <element signature="method#simResult2BinaryTable#0;class#Simulation#0" expanded="false" />
+            <element signature="e#449#486#0" expanded="false" />
+            <element signature="method#evolutionaryStabilityTest#0;class#Simulation#0" expanded="false" />
+            <element signature="method#isEvolutionaryStable#0;class#Simulation#0" expanded="false" />
+            <element signature="e#7241#7266#0" expanded="false" />
+            <element signature="e#7361#7392#0" expanded="false" />
+            <element signature="e#7624#7666#0" expanded="false" />
+            <element signature="e#9102#9143#0" expanded="false" />
+            <element signature="e#9660#9683#0" expanded="false" />
+            <element signature="method#nextStrategyProfile#0;class#Simulation#0" expanded="false" />
             <element signature="method#binaryTable2WinPercentage#0;class#Simulation#0" expanded="false" />
-            <element signature="e#8686#8703#0" expanded="false" />
+            <element signature="e#12842#12859#0" expanded="false" />
             <element signature="method#loadString#0;class#Simulation#0" expanded="false" />
-            <element signature="e#10783#10805#0" expanded="false" />
+            <element signature="e#14939#14961#0" expanded="false" />
             <element signature="method#Simulation#0;class#Simulation#0" expanded="false" />
             <element signature="method#main#0;class#Simulation#0" expanded="false" />
           </folding>
@@ -566,7 +650,6 @@
           <caret line="93" column="17" lean-forward="false" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#238#270#0" expanded="false" />
             <element signature="method#rollDice#0;class#Game#0" expanded="false" />
             <element signature="e#908#931#0" expanded="false" />
             <element signature="e#1120#1144#0" expanded="false" />
@@ -588,6 +671,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9120">
           <caret line="228" column="20" lean-forward="false" selection-start-line="228" selection-start-column="20" selection-end-line="228" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -598,12 +682,19 @@
           <caret line="58" column="14" lean-forward="false" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7145#7172#0" expanded="false" />
-            <element signature="method#simResult2BinaryTable#0;class#Simulation#0" expanded="false" />
+            <element signature="e#449#486#0" expanded="false" />
+            <element signature="method#evolutionaryStabilityTest#0;class#Simulation#0" expanded="false" />
+            <element signature="method#isEvolutionaryStable#0;class#Simulation#0" expanded="false" />
+            <element signature="e#7241#7266#0" expanded="false" />
+            <element signature="e#7361#7392#0" expanded="false" />
+            <element signature="e#7624#7666#0" expanded="false" />
+            <element signature="e#9102#9143#0" expanded="false" />
+            <element signature="e#9660#9683#0" expanded="false" />
+            <element signature="method#nextStrategyProfile#0;class#Simulation#0" expanded="false" />
             <element signature="method#binaryTable2WinPercentage#0;class#Simulation#0" expanded="false" />
-            <element signature="e#8686#8703#0" expanded="false" />
+            <element signature="e#12842#12859#0" expanded="false" />
             <element signature="method#loadString#0;class#Simulation#0" expanded="false" />
-            <element signature="e#10783#10805#0" expanded="false" />
+            <element signature="e#14939#14961#0" expanded="false" />
             <element signature="method#Simulation#0;class#Simulation#0" expanded="false" />
             <element signature="method#main#0;class#Simulation#0" expanded="false" />
           </folding>
@@ -616,7 +707,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#238#270#0" expanded="false" />
             <element signature="method#rollDice#0;class#Game#0" expanded="false" />
             <element signature="e#908#931#0" expanded="false" />
             <element signature="e#1120#1144#0" expanded="false" />
@@ -638,6 +728,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9120">
           <caret line="228" column="20" lean-forward="false" selection-start-line="228" selection-start-column="20" selection-end-line="228" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -649,7 +740,6 @@
           <caret line="230" column="5" lean-forward="false" selection-start-line="230" selection-start-column="5" selection-end-line="230" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#238#270#0" expanded="false" />
             <element signature="method#rollDice#0;class#Game#0" expanded="false" />
             <element signature="e#908#931#0" expanded="false" />
             <element signature="e#1120#1144#0" expanded="false" />
@@ -675,7 +765,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#238#270#0" expanded="false" />
             <element signature="method#rollDice#0;class#Game#0" expanded="false" />
             <element signature="e#908#931#0" expanded="false" />
             <element signature="e#1120#1144#0" expanded="false" />
@@ -695,13 +784,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/config.xml" />
     <entry file="file://$PROJECT_DIR$/src/Player.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="525" column="52" lean-forward="false" selection-start-line="525" selection-start-column="15" selection-end-line="525" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
     <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.xml/org/w3c/dom/Node.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -722,43 +804,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="228" column="20" lean-forward="false" selection-start-line="228" selection-start-column="20" selection-end-line="228" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/config.xml" />
     <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86840">
+        <state relative-caret-position="17">
           <caret line="2255" column="25" lean-forward="false" selection-start-line="2255" selection-start-column="20" selection-end-line="2255" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Simulation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7145#7172#0" expanded="false" />
-            <element signature="method#simResult2BinaryTable#0;class#Simulation#0" expanded="false" />
-            <element signature="method#binaryTable2WinPercentage#0;class#Simulation#0" expanded="false" />
-            <element signature="e#8686#8703#0" expanded="false" />
-            <element signature="method#loadString#0;class#Simulation#0" expanded="false" />
-            <element signature="e#10783#10805#0" expanded="false" />
-            <element signature="method#Simulation#0;class#Simulation#0" expanded="false" />
-            <element signature="method#main#0;class#Simulation#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="168" column="0" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+        <state relative-caret-position="442">
+          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#238#270#0" expanded="false" />
             <element signature="method#rollDice#0;class#Game#0" expanded="false" />
             <element signature="e#908#931#0" expanded="false" />
             <element signature="e#1120#1144#0" expanded="false" />
@@ -776,10 +840,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="487" column="17" lean-forward="false" selection-start-line="487" selection-start-column="17" selection-end-line="487" selection-end-column="17" />
+          <folding>
+            <element signature="e#19085#19086#0" expanded="true" />
+            <element signature="e#19137#19138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Simulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="313" column="55" lean-forward="true" selection-start-line="313" selection-start-column="55" selection-end-line="313" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#449#486#0" expanded="false" />
+            <element signature="method#evolutionaryStabilityTest#0;class#Simulation#0" expanded="false" />
+            <element signature="method#isEvolutionaryStable#0;class#Simulation#0" expanded="false" />
+            <element signature="e#7241#7266#0" expanded="false" />
+            <element signature="e#7361#7392#0" expanded="false" />
+            <element signature="e#7624#7666#0" expanded="false" />
+            <element signature="e#9102#9143#0" expanded="false" />
+            <element signature="e#9660#9683#0" expanded="false" />
+            <element signature="method#nextStrategyProfile#0;class#Simulation#0" expanded="false" />
+            <element signature="method#binaryTable2WinPercentage#0;class#Simulation#0" expanded="false" />
+            <element signature="e#12842#12859#0" expanded="false" />
+            <element signature="method#loadString#0;class#Simulation#0" expanded="false" />
+            <element signature="e#14939#14961#0" expanded="false" />
+            <element signature="method#Simulation#0;class#Simulation#0" expanded="false" />
+            <element signature="method#main#0;class#Simulation#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="323">
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
           <folding />
         </state>
       </provider>

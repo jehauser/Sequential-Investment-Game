@@ -7,8 +7,11 @@ import java.io.FileNotFoundException;
 import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 import static java.lang.Math.abs;
+import static java.lang.Math.floor;
+import static java.lang.Math.pow;
 
 public class Simulation {
 
@@ -143,7 +146,7 @@ public class Simulation {
                 //System.out.printf("first condition failed for %d vs %d. expectedPayoff was %f\n", x, y, expectedPayoff[0]);
 
                 // check if second condition is satisfied
-                if (abs((1.0f / populationSize) - expectedPayoff[0]) < epsilon) {
+                if (abs((1.0f / populationSize) - expectedPayoff[0]) <= epsilon) {
 
                     // check if x performs strictly better against y population than y.
 
@@ -182,27 +185,152 @@ public class Simulation {
 
     // endregion
 
+    // region payoff function
+
+    public void generatePayoffFunction(Document doc) throws FileNotFoundException {
+
+        // region variable declarations
+
+        Game.GameCfg cfg = new Game.GameCfg();
+        Game game;
+        int populationSize;
+        List<Float> strategySet;
+        int[] strategyProfile;
+        PrintStream writer = System.out;
+
+        // endregion
+
+        // region load parameters from config file
+
+        if(loadIntRange(doc, "numStages") != null) {
+            cfg.numStages = loadIntRange(doc, "numStages").get(0);}
+        else { throw new ExceptionInInitializerError("numStages not found in config"); }
+
+        if(loadIntRange(doc, "numRounds") != null) {
+            cfg.numRounds = loadIntRange(doc, "numRounds").get(0);}
+        else { throw new ExceptionInInitializerError("numRounds not found in config"); }
+
+        if(loadFloatRange(doc, "winProbability") != null) {
+            cfg.p = loadFloatRange(doc, "winProbability").get(0);}
+        else { throw new ExceptionInInitializerError("winProbability not found in config"); }
+
+        if(loadFloatRange(doc, "startMoney") != null) {
+            cfg.M = loadFloatRange(doc, "startMoney").get(0);}
+        else { throw new ExceptionInInitializerError("startMoney not found in config"); }
+
+        if(loadIntRange(doc, "populationSize") != null) {
+            populationSize = loadIntRange(doc, "populationSize").get(0); }
+        else { throw new ExceptionInInitializerError("populationSize not found in config"); }
+
+        if(loadFloatRange(doc, "strategy") != null) {
+            strategySet = loadFloatRange(doc, "strategy");}
+        else { throw new ExceptionInInitializerError("strategy not found in config"); }
+
+        if(loadString(doc, "outputFileName") != null) { writer = new PrintStream(loadString(doc,"outputFileName")); }
+
+        // endregion
+
+        // region loop over all strategy profiles
+
+        game = new Game(cfg);
+
+        strategyProfile = new int[populationSize];
+        for(int i = 0; i < strategyProfile.length; ++i) {
+            strategyProfile[i] = 0;
+        }
+
+        do {
+
+            // setup game
+            game.removeAllPlayers();
+            for(int s : strategyProfile) {
+                game.addPlayer(strategySet.get(s));
+            }
+
+            // simulate
+            float[] expectedPayoff = binaryTable2WinPercentage(simResult2BinaryTable(game.simulate()));
+
+            // region write to file
+            writer.print("[");
+            for(int i = 0; i < strategyProfile.length-1; ++i) {
+                writer.printf("%f, ", strategySet.get(strategyProfile[i]));
+            }
+            writer.printf("%f] \t -> \t [", strategySet.get(strategyProfile[strategyProfile.length-1]));
+
+            for(int i = 0; i < expectedPayoff.length-1; ++i) {
+                writer.printf("%f, ", expectedPayoff[i]);
+            }
+            writer.printf("%f]\n", expectedPayoff[expectedPayoff.length-1]);
+            // endregion
+
+
+        } while(nextStrategyProfile(strategyProfile, strategySet.size()));
+
+        // endregion
+
+
+
+    }
+
+    private boolean nextStrategyProfile(int[] strategyProfile, int numStrategies) {
+
+
+
+        for(int i = strategyProfile.length-1; i >= 0; --i) {
+
+            if(strategyProfile[i] < numStrategies-1) {
+                strategyProfile[i]++;
+                return true;
+            }
+            else {
+                strategyProfile[i] = 0;
+            }
+
+        }
+
+        return false;
+
+    }
+
+    // endregion
+
     // region result processing
 
     private int[][] simResult2BinaryTable(float[][] simRes) {
 
         // TODO: handle case where a row has no strict maximum!
 
+        Random random = new Random();
+
         int[][] res = new int[simRes.length][simRes[0].length];
-        int currentRowMaxIndex;
+        List<Integer> currentRowMaxIndex = new ArrayList<>();
 
         // loop over rows of simRes
         for(int i = 0; i < simRes.length; ++i) {
 
             // loop over all elements of current row to find max
-            currentRowMaxIndex = 0;
-            for(int j = 0; j < simRes[i].length; ++j) {
-                if(simRes[i][j] > simRes[i][currentRowMaxIndex]) {currentRowMaxIndex = j;}
+            currentRowMaxIndex.clear();
+            currentRowMaxIndex.add(0);
+            for(int j = 1; j < simRes[i].length; ++j) {
+                if(simRes[i][j] > simRes[i][currentRowMaxIndex.get(0)]) {
+                    currentRowMaxIndex.clear();
+                    currentRowMaxIndex.add(j);
+                }
+                else if (simRes[i][j] == simRes[i][currentRowMaxIndex.get(0)]) {
+                    currentRowMaxIndex.add(j);
+                }
             }
 
             // loop over all elements of current row in result to set values
+            int r = 0;
+            if(currentRowMaxIndex.size() != 1) {
+                float f = random.nextFloat();
+                r = (int)floor(f * currentRowMaxIndex.size());
+            }
+
+
             for(int j = 0; j < simRes[i].length; ++j) {
-                if(j == currentRowMaxIndex) {
+                if(j == currentRowMaxIndex.get(r)) {
                     res[i][j] = 1;
                 }
                 else {
@@ -330,6 +458,9 @@ public class Simulation {
 
             if(mode.equals("evolutionaryStabilityTest")) {
                 evolutionaryStabilityTest(doc);
+            }
+            else if(mode.equals("payoffFunction")) {
+                generatePayoffFunction(doc);
             }
             else {
                 throw new ExceptionInInitializerError("invalid mode in Game constructor");
