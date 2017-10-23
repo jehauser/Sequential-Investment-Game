@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SequentialInvestmentGame:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SequentialInvestmentGame_jar</output-path>
+    <root id="archive" name="SequentialInvestmentGame.jar">
+      <element id="module-output" name="SequentialInvestmentGame" />
+    </root>
+  </artifact>
+</component>
