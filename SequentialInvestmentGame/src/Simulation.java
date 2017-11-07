@@ -11,7 +11,6 @@ import java.util.Random;
 
 import static java.lang.Math.abs;
 import static java.lang.Math.floor;
-import static java.lang.Math.pow;
 
 public class Simulation {
 
@@ -118,7 +117,7 @@ public class Simulation {
         /* if N mPlayers play the same strategy each player has 1/N chance to win. so the expected payoff is 1/N.
             *  now test if any other strategy y performs better against x than x itself.*/
 
-        boolean isEvolutionarySable = true;
+        boolean isEvolutionaryStable = true;
 
         // loop over all strategies y to test against.
         for(int y = 0; y < strategies.size(); ++y) {
@@ -165,13 +164,13 @@ public class Simulation {
                     if (!(expectedPayoff[0] > 1.0f / populationSize)) {
                         // second condition is also false. => x is not evolutionary stable
                         //System.out.printf("second (2) condition failed for %d vs %d\n", x, y);
-                        isEvolutionarySable = false;
+                        isEvolutionaryStable = false;
                         break;
                     }
                 } else {
                     // second condition is also false. => x is not evolutionary stable
                     //System.out.printf("second (1) condition failed for %d vs %d\n", x, y);
-                    isEvolutionarySable = false;
+                    isEvolutionaryStable = false;
                     break;
                 }
 
@@ -180,7 +179,7 @@ public class Simulation {
 
         }
 
-        return isEvolutionarySable;
+        return isEvolutionaryStable;
     }
 
     // endregion
@@ -241,6 +240,11 @@ public class Simulation {
 
         do {
 
+            System.out.printf("computing payoff for: ");
+            for(int i : strategyProfile)
+                System.out.printf("%d | ", i);
+            System.out.println();
+
             // setup game
             game.removeAllPlayers();
             for(int s : strategyProfile) {
@@ -275,20 +279,39 @@ public class Simulation {
     private boolean nextStrategyProfile(int[] strategyProfile, int numStrategies) {
 
 
+        int i = strategyProfile.length-1;
+        int resetDigit;
+        while(true) {
 
-        for(int i = strategyProfile.length-1; i >= 0; --i) {
-
+            // check if current digit can be incremented
             if(strategyProfile[i] < numStrategies-1) {
+
+                // increment current digit
                 strategyProfile[i]++;
+
+                // set resetDigit
+                resetDigit = strategyProfile[i];
+
+                // reset previous digits to resetDigit
+                for(int j = i+1; j < strategyProfile.length; ++j) {
+                    strategyProfile[j] = resetDigit;
+                }
+
+                // return true
                 return true;
+
+            }
+
+            // check if i is at the most significant digit
+            if(i == 0) {
+                return false;
             }
             else {
-                strategyProfile[i] = 0;
+                // move to next more significant digit
+                i--;
             }
 
         }
-
-        return false;
 
     }
 
@@ -447,6 +470,7 @@ public class Simulation {
     // region constructors
 
     public Simulation(String cfg) {
+
         try {
             File inputFile = new File(cfg);
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
