@@ -4,10 +4,10 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-import org.w3c.dom.*;
+import java.util.concurrent.*;
 
 
-public class Game {
+public class Game implements Callable<float[][]> {
 
 
     // region simulation and helpers
@@ -62,7 +62,11 @@ public class Game {
         return mNumStages;
     }
 
-    public void addPlayer(float strategy) {
+    public float getP() { return mP; }
+
+    public int getNumPlayers() { return mPlayers.size(); }
+
+    public void addPlayer(Strategy strategy) {
         mPlayers.add(new Player(strategy, mM));
     }
 
@@ -86,6 +90,11 @@ public class Game {
 
     public Game(GameCfg cfg) {
         this(cfg.numStages, cfg.numRounds, cfg.p, cfg.M);
+    }
+
+    @Override
+    public float[][] call() throws Exception {
+        return simulate();
     }
 
     // endregion
@@ -115,6 +124,7 @@ public class Game {
 
         public void resetMoney() {
             mMoney = mStartMoney;
+            currentStage = 1;
         }
 
         // endregion
@@ -124,12 +134,14 @@ public class Game {
 
         private void playStage(Game game) {
 
-            float stake = mMoney * mStrategy;
+            float stake = mMoney * mStrategy.eval(game.getP(), game.getmNumStages(), currentStage, game.getNumPlayers(), mMoney);
             mMoney -= stake;
 
             if(game.rollDice()) {
                 mMoney += 2 * stake;
             }
+
+            currentStage++;
 
         }
 
@@ -138,28 +150,26 @@ public class Game {
 
         // region member fields
 
-        private float mStrategy;
+        private Strategy mStrategy;
         private float mMoney;
         private float mStartMoney;
+        private int currentStage;
 
         // endregion
 
 
         // region getters/setters
 
-        public float getmStrategy() {
-            return mStrategy;
-        }
-
         // endregion
 
 
         // region constructors
 
-        public Player(float strategy, float money) {
+        public Player(Strategy strategy, float money) {
             this.mStrategy = strategy;
             this.mMoney = money;
             this.mStartMoney = money;
+            currentStage = 1;
         }
 
         // endregion

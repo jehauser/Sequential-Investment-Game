@@ -8,6 +8,7 @@ import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.concurrent.*;
 
 import static java.lang.Math.abs;
 import static java.lang.Math.floor;
@@ -16,7 +17,7 @@ public class Simulation {
 
     // region evolutionary stability test
 
-    private void evolutionaryStabilityTest(Document doc) throws FileNotFoundException {
+    private void evolutionaryStabilityTest(Document doc) throws FileNotFoundException, ExecutionException, InterruptedException {
 
         // region variable declarations
         Game.GameCfg cfg = new Game.GameCfg();
@@ -24,10 +25,12 @@ public class Simulation {
         float epsilon;
         List<Integer> numStages;
         List<Float> p;
-        List<Float> strategies;
+        List<Strategy> strategies;
         List<Integer> populationSize;
         PrintStream writer = System.out;
-
+        List<List<List<List<Future>>>> futureLists;
+        boolean[][][][] res;
+        int numCallables = 0;
         // endregion
 
 
@@ -57,62 +60,86 @@ public class Simulation {
         else { throw new ExceptionInInitializerError("populationSize not found in config"); }
 
         if(loadFloatRange(doc, "strategy") != null) {
-            strategies = loadFloatRange(doc, "strategy");}
+            List<Float> strategyConstants = loadFloatRange(doc, "strategy");
+            strategies = new ArrayList<>();
+            for(int i=0; i<strategyConstants.size(); ++i)
+                strategies.add(new ConstantStrategy(strategyConstants.get(i)));
+        }
         else { throw new ExceptionInInitializerError("strategy not found in config"); }
 
         if(loadString(doc, "outputFileName") != null) { writer = new PrintStream(loadString(doc,"outputFileName")); }
 
+        res = new boolean[numStages.size()][p.size()][populationSize.size()][strategies.size()];
+        futureLists = new ArrayList<>();
+
         // endregion
 
         // region loop over numStages
+        int i1 = 0;
         for(int numStages_ : numStages) {
             cfg.numStages = numStages_;
+            futureLists.add(new ArrayList<>());
 
             // region loop over winProbabilities
+            int i2 = 0;
             for(float p_ : p) {
                 cfg.p = p_;
+                futureLists.get(i1).add(new ArrayList<>());
 
                 // region loop over population size
-                for(int populationSize_ : populationSize) {
+                int i3 = 0;
+                for (int populationSize_ : populationSize) {
                     // region evolutionary stability test
-
+                    futureLists.get(i1).get(i2).add(new ArrayList<>());
                     System.out.printf("numStages = %d, p = %f, populationSize = %d\n", numStages_, p_, populationSize_);
 
-                    game = new Game(cfg);
-
                     // loop over all mStrategies to test if they are evolutionary stable
-                    boolean[] isEvolutionaryStable = new boolean[strategies.size()];
+                    int i4 = 0;
                     for (int x = 0; x < strategies.size(); ++x) {
-                        //System.out.printf("testing evolutionary stability of strategy %d\n", x);
-                        isEvolutionaryStable[x] = isEvolutionaryStable(x, strategies, populationSize_, game, epsilon);
-                    }
 
-                    writer.printf("numStages = %d, p = %f, populationSize = %d\n", numStages_, p_, populationSize_);
-                    for (int i = 0; i < strategies.size(); ++i) {
-                        if (isEvolutionaryStable[i]) {
-                            writer.printf("Strategy %d (%f) was evolutionary stable\n", i, strategies.get(i));
-                        } else {
-                            //writer.printf("Strategy %d (%f) was not evolutionary stable\n", i, strategies.get(i));
-                        }
+                        game = new Game(cfg);
+                        //System.out.printf("testing evolutionary stability of strategy %d\n", x);
+                        futureLists.get(i1).get(i2).get(i3).add(executorService.submit(new isEvolutionaryStableCallable(x, strategies, populationSize_, game, epsilon)));
+                        numCallables++;
+
+                        i4++;
                     }
-                    writer.println();
                     // endregion
+                    i3++;
                 }
 
                 // endregion
-
+                i2++;
             }
 
             // endregion
 
+            i1++;
         }
+
         // endregion
+        executorService.shutdown();
+
+        int numCallablesDone = 0;
+        for(i1 = 0; i1 < futureLists.size(); ++i1) {
+            for(int i2 = 0; i2 < futureLists.get(i1).size(); ++i2) {
+                for(int i3 = 0; i3 < futureLists.get(i1).get(i2).size(); ++i3) {
+                    for(int i4 = 0; i4 < futureLists.get(i1).get(i2).get(i3).size(); ++i4) {
+                        res[i1][i2][i3][i4] = (Boolean)futureLists.get(i1).get(i2).get(i3).get(i4).get();
+                        numCallablesDone++;
+                        System.out.printf("%f%s done\n", ((float)numCallablesDone) / numCallables * 100, "%");
+                    }
+                }
+            }
+        }
+
+        writeToFile(writer, res);
 
         writer.close();
 
     }
 
-    private boolean isEvolutionaryStable(int xIndex, List<Float> strategies, int populationSize, Game game, float epsilon) {
+    private boolean isEvolutionaryStable(int xIndex, List<Strategy> strategies, int populationSize, Game game, float epsilon) throws ExecutionException, InterruptedException {
 
         /* if N mPlayers play the same strategy each player has 1/N chance to win. so the expected payoff is 1/N.
             *  now test if any other strategy y performs better against x than x itself.*/
@@ -137,8 +164,7 @@ public class Simulation {
             }
 
             // run simulation
-            float[][] res = game.simulate();
-            float[] expectedPayoff = binaryTable2WinPercentage(simResult2BinaryTable(res));
+            float[] expectedPayoff = binaryTable2WinPercentage(simResult2BinaryTable(game.simulate()));
 
             // check if first condition is satisfied. if no, check second condition
             if (!(1.0f / populationSize > expectedPayoff[0])) {
@@ -157,8 +183,7 @@ public class Simulation {
                     }
 
                     // run simulation
-                    res = game.simulate();
-                    expectedPayoff = binaryTable2WinPercentage(simResult2BinaryTable(res));
+                    expectedPayoff = binaryTable2WinPercentage(simResult2BinaryTable(game.simulate()));
 
                     // check if second condition is satisfied. if yes, move on to check next y
                     if (!(expectedPayoff[0] > 1.0f / populationSize)) {
@@ -182,18 +207,60 @@ public class Simulation {
         return isEvolutionaryStable;
     }
 
+    private class isEvolutionaryStableCallable implements Callable<Boolean> {
+
+        private int xIndex;
+        private List<Strategy> strategies;
+        private int populationSize;
+        private Game game;
+        private float epsilon;
+
+        public isEvolutionaryStableCallable(int xIndex, List<Strategy> strategies, int populationSize, Game game, float epsilon) {
+            this.xIndex = xIndex;
+            this.strategies = strategies;
+            this.populationSize = populationSize;
+            this.game = game;
+            this.epsilon = epsilon;
+        }
+
+        @Override
+        public Boolean call() throws Exception {
+            return isEvolutionaryStable(xIndex, strategies, populationSize, game, epsilon);
+        }
+    };
+
+    private void writeToFile(PrintStream writer, boolean[][][][] res) {
+
+        for(boolean[][][] b1 : res) {
+            for(boolean[][] b2 : b1) {
+                for(boolean[] b3: b2) {
+                    for(boolean b4 : b3) {
+                        if(b4)
+                            writer.printf("1 ");
+                        else
+                            writer.printf("0 ");
+                    }
+                    writer.println();
+                }
+                writer.println();
+            }
+            writer.println();
+        }
+
+    }
+
     // endregion
 
     // region payoff function
 
-    public void generatePayoffFunction(Document doc) throws FileNotFoundException {
+    public void generatePayoffFunction(Document doc) throws FileNotFoundException, ExecutionException, InterruptedException {
 
         // region variable declarations
 
         Game.GameCfg cfg = new Game.GameCfg();
         Game game;
         int populationSize;
-        List<Float> strategySet;
+        List<Strategy> strategySet;
         int[] strategyProfile;
         PrintStream writer = System.out;
 
@@ -222,7 +289,11 @@ public class Simulation {
         else { throw new ExceptionInInitializerError("populationSize not found in config"); }
 
         if(loadFloatRange(doc, "strategy") != null) {
-            strategySet = loadFloatRange(doc, "strategy");}
+            List<Float> strategyConstants = loadFloatRange(doc, "strategy");
+            strategySet = new ArrayList<>();
+            for(int i=0; i<strategyConstants.size(); ++i)
+                strategySet.add(new ConstantStrategy(strategyConstants.get(i)));
+        }
         else { throw new ExceptionInInitializerError("strategy not found in config"); }
 
         if(loadString(doc, "outputFileName") != null) { writer = new PrintStream(loadString(doc,"outputFileName")); }
@@ -252,7 +323,8 @@ public class Simulation {
             }
 
             // simulate
-            float[] expectedPayoff = binaryTable2WinPercentage(simResult2BinaryTable(game.simulate()));
+            Future<float[][]> future = executorService.submit(game);
+            float[] expectedPayoff = binaryTable2WinPercentage(simResult2BinaryTable(future.get()));
 
             // region write to file
             writer.print("[");
@@ -478,6 +550,8 @@ public class Simulation {
             Document doc = dBuilder.parse(inputFile);
             doc.getDocumentElement().normalize();
 
+            executorService = Executors.newFixedThreadPool(16);
+
             String mode = doc.getElementsByTagName("mode").item(0).getTextContent();
 
             if(mode.equals("evolutionaryStabilityTest")) {
@@ -497,6 +571,8 @@ public class Simulation {
     }
 
     // endregion
+
+    private ExecutorService executorService;
 
     public static void main(String [ ] args) {
 
