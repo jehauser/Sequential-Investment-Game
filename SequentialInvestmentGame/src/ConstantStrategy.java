@@ -9,5 +9,10 @@ public class ConstantStrategy implements Strategy {
         return mC;
     }
 
+    @Override
+    public String toText() {
+        return Float.toString(mC);
+    }
+
     private float mC;
 }

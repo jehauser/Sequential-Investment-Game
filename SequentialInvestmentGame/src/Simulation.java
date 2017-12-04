@@ -25,6 +25,8 @@ public class Simulation {
         float epsilon;
         List<Integer> numStages;
         List<Float> p;
+        List<Float> strategyStartValues;
+        List<Float> strategyEndValues;
         List<Strategy> strategies;
         List<Integer> populationSize;
         PrintStream writer = System.out;
@@ -59,13 +61,27 @@ public class Simulation {
         if(loadIntRange(doc, "populationSize") != null) {populationSize = loadIntRange(doc, "populationSize");}
         else { throw new ExceptionInInitializerError("populationSize not found in config"); }
 
-        if(loadFloatRange(doc, "strategy") != null) {
-            List<Float> strategyConstants = loadFloatRange(doc, "strategy");
-            strategies = new ArrayList<>();
-            for(int i=0; i<strategyConstants.size(); ++i)
-                strategies.add(new ConstantStrategy(strategyConstants.get(i)));
+        if(loadFloatRange(doc, "strategyStartValues") != null) {
+            strategyStartValues = loadFloatRange(doc, "strategyStartValues");
         }
-        else { throw new ExceptionInInitializerError("strategy not found in config"); }
+        else { throw new ExceptionInInitializerError("strategyStartValues not found in config"); }
+
+        if(loadFloatRange(doc, "strategyEndValues") != null) {
+            strategyEndValues = loadFloatRange(doc, "strategyEndValues");
+        }
+        else { throw new ExceptionInInitializerError("strategyEndValues not found in config"); }
+
+        strategies = new ArrayList<>();
+        for(int i=0; i<strategyStartValues.size(); ++i) {
+            for(int j=0; j<1; j++){
+
+                // TODO: FIX
+                float slope = (strategyEndValues.get(j) - strategyEndValues.get(i));
+                float offset = strategyStartValues.get(i);
+                System.out.printf("slope = %f | offset = %f\n", slope, offset);
+                strategies.add(new TimeLinearStrategy(slope, offset));
+            }
+        }
 
         if(loadString(doc, "outputFileName") != null) { writer = new PrintStream(loadString(doc,"outputFileName")); }
 
@@ -257,16 +273,24 @@ public class Simulation {
 
         // region variable declarations
 
+        float epsilon;
         Game.GameCfg cfg = new Game.GameCfg();
         Game game;
         int populationSize;
+        List<Float> strategyStartValues;
+        List<Float> strategyEndValues;
         List<Strategy> strategySet;
-        int[] strategyProfile;
         PrintStream writer = System.out;
+
+        PayoffFunction payoffFunction;
 
         // endregion
 
         // region load parameters from config file
+
+        if(loadFloatRange(doc, "epsilon") != null) {
+            epsilon = loadFloatRange(doc, "epsilon").get(0);}
+        else { throw new ExceptionInInitializerError("epsilon not found in config"); }
 
         if(loadIntRange(doc, "numStages") != null) {
             cfg.numStages = loadIntRange(doc, "numStages").get(0);}
@@ -288,61 +312,95 @@ public class Simulation {
             populationSize = loadIntRange(doc, "populationSize").get(0); }
         else { throw new ExceptionInInitializerError("populationSize not found in config"); }
 
-        if(loadFloatRange(doc, "strategy") != null) {
-            List<Float> strategyConstants = loadFloatRange(doc, "strategy");
-            strategySet = new ArrayList<>();
-            for(int i=0; i<strategyConstants.size(); ++i)
-                strategySet.add(new ConstantStrategy(strategyConstants.get(i)));
+        if(loadFloatRange(doc, "strategyStartValues") != null) {
+            strategyStartValues = loadFloatRange(doc, "strategyStartValues");
         }
-        else { throw new ExceptionInInitializerError("strategy not found in config"); }
+        else { throw new ExceptionInInitializerError("strategyStartValues not found in config"); }
+
+        if(loadFloatRange(doc, "strategyEndValues") != null) {
+            strategyEndValues = loadFloatRange(doc, "strategyEndValues");
+        }
+        else { throw new ExceptionInInitializerError("strategyEndValues not found in config"); }
+
+        strategySet = new ArrayList<>();
+        for(int i=0; i<strategyStartValues.size(); ++i) {
+            for(int j=0; j<strategyEndValues.size(); j++){
+
+                float slope = (strategyEndValues.get(j) - strategyStartValues.get(i));
+                float offset = strategyStartValues.get(i);
+                System.out.printf("slope = %f | offset = %f\n", slope, offset);
+                strategySet.add(new TimeLinearStrategy(slope, offset));
+            }
+        }
+
+
 
         if(loadString(doc, "outputFileName") != null) { writer = new PrintStream(loadString(doc,"outputFileName")); }
 
         // endregion
 
-        // region loop over all strategy profiles
+        payoffFunction = new PayoffFunction(populationSize, strategySet, cfg, epsilon);
+        payoffFunction.compute();
 
-        game = new Game(cfg);
+        payoffFunction.findNashEquilibria();
 
-        strategyProfile = new int[populationSize];
-        for(int i = 0; i < strategyProfile.length; ++i) {
+
+
+
+
+        int[] strategyProfile = new int[populationSize];
+        for(int i=0; i<populationSize; ++i) {
             strategyProfile[i] = 0;
         }
 
-        do {
+        boolean done = false;
+        while(!done) {
 
-            System.out.printf("computing payoff for: ");
-            for(int i : strategyProfile)
-                System.out.printf("%d | ", i);
-            System.out.println();
 
-            // setup game
-            game.removeAllPlayers();
-            for(int s : strategyProfile) {
-                game.addPlayer(strategySet.get(s));
-            }
 
-            // simulate
-            Future<float[][]> future = executorService.submit(game);
-            float[] expectedPayoff = binaryTable2WinPercentage(simResult2BinaryTable(future.get()));
-
-            // region write to file
             writer.print("[");
-            for(int i = 0; i < strategyProfile.length-1; ++i) {
-                writer.printf("%f, ", strategySet.get(strategyProfile[i]));
+            for (int j = 0; j< populationSize - 1; ++j) {
+                writer.printf("%s, ", strategySet.get(strategyProfile[j]).toText());
             }
-            writer.printf("%f] \t -> \t [", strategySet.get(strategyProfile[strategyProfile.length-1]));
+            writer.printf("%s] \t\t\t -> \t [", strategySet.get(strategyProfile[strategyProfile.length - 1]).toText());
 
-            for(int i = 0; i < expectedPayoff.length-1; ++i) {
-                writer.printf("%f, ", expectedPayoff[i]);
+
+            for (int j = 0; j < populationSize-1; ++j) {
+                writer.printf("%f, ", payoffFunction.getPayoff(strategyProfile, j));
             }
-            writer.printf("%f]\n", expectedPayoff[expectedPayoff.length-1]);
-            // endregion
+            writer.printf("%f]\n", payoffFunction.getPayoff(strategyProfile, populationSize-1));
 
 
-        } while(nextStrategyProfile(strategyProfile, strategySet.size()));
 
-        // endregion
+            int i = populationSize - 1;
+            while(true) {
+                // check if current digit can be incremented
+                if (strategyProfile[i] < strategySet.size() - 1) {
+
+                    // increment current digit
+                    strategyProfile[i]++;
+
+
+                    // reset previous digits to 0
+                    for (int j = i + 1; j < strategyProfile.length; ++j) {
+                        strategyProfile[j] = 0;
+                    }
+
+                    break;
+
+                }
+
+                // check if i is at the most significant digit
+                if (i == 0) {
+                    done = true;
+                    break;
+                } else {
+                    // move to next more significant digit
+                    i--;
+                }
+            }
+
+        }
 
 
 
@@ -389,11 +447,12 @@ public class Simulation {
 
     // endregion
 
+
+
     // region result processing
 
     private int[][] simResult2BinaryTable(float[][] simRes) {
 
-        // TODO: handle case where a row has no strict maximum!
 
         Random random = new Random();
 

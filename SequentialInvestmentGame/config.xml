@@ -1,23 +1,29 @@
 <?xml version = "1.0"?>
 <Game>
+
     <mode>evolutionaryStabilityTest</mode>
-    <numRounds>1000</numRounds>
-    <epsilon>0.001</epsilon>
-    <numStages>10</numStages>
-    <winProbability>0.1:0.01:1.001</winProbability>
+    <numRounds>500</numRounds>
+    <epsilon>0.05</epsilon>
+    <numStages>20</numStages>
+    <winProbability>0.6</winProbability>
     <startMoney>100</startMoney>
-    <populationSize>10</populationSize>
-    <strategy>0.0:0.01:1.001</strategy>
+    <populationSize>5:5:500</populationSize>
+    <strategyStartValues>0.0:0.05:1.001</strategyStartValues>
+    <strategyEndValues>0.0:0.01:1.001</strategyEndValues>
     <outputFileName>simulation output.txt</outputFileName>
+
 
     <!--
     <mode>payoffFunction</mode>
-    <numRounds>1000</numRounds>
+    <epsilon>0.05</epsilon>
+    <numRounds>2</numRounds>
     <numStages>10</numStages>
-    <winProbability>0.5:0.1:1.01</winProbability>
+    <winProbability>0.7</winProbability>
     <startMoney>100</startMoney>
-    <populationSize>3</populationSize>
-    <strategy>0.0:0.05:1.001</strategy>
+    <populationSize>2</populationSize>
+    <strategyStartValues>0.0:0.5:1.0</strategyStartValues>
+    <strategyEndValues>0.0:0.5:1.0</strategyEndValues>
     <outputFileName>payoff.txt</outputFileName>
     -->
+
 </Game>
