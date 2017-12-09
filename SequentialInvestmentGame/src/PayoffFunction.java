@@ -21,8 +21,9 @@ public class PayoffFunction {
 
     public void compute() throws ExecutionException, InterruptedException {
 
-        Game game = new Game(cfg);
+        Game game;
         List<Future<float[][]>> futureList = new ArrayList<>();
+        List<int[]> strategyProfileList = new ArrayList<>();
 
         int []strategyProfile = new int[numPlayers];
         for(int i = 0; i < strategyProfile.length; ++i) {
@@ -38,6 +39,11 @@ public class PayoffFunction {
 
             // simulate
             futureList.add(executorService.submit(game));
+            int[] strategyProfileCopy = new int[numPlayers];
+            for(int i=0; i<strategyProfile.length; ++i) {
+                strategyProfileCopy[i] = strategyProfile[i];
+            }
+            strategyProfileList.add(strategyProfileCopy);
 
 
         } while(nextStrategyProfile(strategyProfile, strategySet.size()));
@@ -45,7 +51,9 @@ public class PayoffFunction {
 
 
         for(int i=0; i<futureList.size(); ++i) {
-            payoffs.add(binaryTable2WinPercentage(simResult2BinaryTable(futureList.get(i).get())));
+            float[] expectedPayoffs = binaryTable2WinPercentage(simResult2BinaryTable(futureList.get(i).get()));
+            averageEquivalentStrategies(expectedPayoffs, strategyProfileList.get(i));
+            payoffs.add(expectedPayoffs);
             System.out.printf("%f %s done\n", (float)i / (futureList.size()-1) * 100, "%");
         }
 
@@ -151,7 +159,7 @@ public class PayoffFunction {
         int sortedPlayerIndex = 0;
         int playerStrategyNumber = strategyProfile[playerIndex];
         for(int i=0; i<strategyProfile.length; ++i) {
-            if(strategyProfile[i] > playerStrategyNumber) {
+            if(strategyProfile[i] < playerStrategyNumber) {
                 sortedPlayerIndex++;
             }
         }
@@ -320,6 +328,42 @@ public class PayoffFunction {
         }
 
         return res;
+    }
+
+    private void averageEquivalentStrategies(float[] expectedPayoffs, int[] strategyProfile) {
+
+        List<List<Integer>> equivalenceClasses = new ArrayList<>();
+        for(int i=0; i<strategySet.size(); ++i) {
+            equivalenceClasses.add(new ArrayList<>());
+        }
+
+
+
+        for(int i=0; i<strategyProfile.length; ++i) {
+            equivalenceClasses.get(strategyProfile[i]).add(i);
+        }
+
+
+
+        for(int i=0; i<equivalenceClasses.size(); ++i) {
+
+            List<Integer> currentIndices = equivalenceClasses.get(i);
+            if(currentIndices.size() == 0)
+                continue;
+
+            float average = 0;
+            for(int j=0; j<currentIndices.size(); ++j) {
+                average += expectedPayoffs[currentIndices.get(j)];
+            }
+            average /= currentIndices.size();
+
+            for(int j=0; j<currentIndices.size(); ++j) {
+                expectedPayoffs[currentIndices.get(j)] = average;
+            }
+
+
+        }
+
     }
 
     // endregion
