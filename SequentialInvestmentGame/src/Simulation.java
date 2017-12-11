@@ -33,6 +33,7 @@ public class Simulation {
         List<List<List<List<Future>>>> futureLists;
         boolean[][][][] res;
         int numCallables = 0;
+        int outputMode;
         // endregion
 
 
@@ -84,6 +85,10 @@ public class Simulation {
         }
 
         if(loadString(doc, "outputFileName") != null) { writer = new PrintStream(loadString(doc,"outputFileName")); }
+
+        if(loadIntRange(doc, "outputMode") != null) {
+            outputMode = loadIntRange(doc, "outputMode").get(0);}
+        else { throw new ExceptionInInitializerError("outputMode not found in config"); }
 
         res = new boolean[numStages.size()][p.size()][populationSize.size()][strategies.size()];
         futureLists = new ArrayList<>();
@@ -151,7 +156,7 @@ public class Simulation {
 
 
 
-        writeToFile(writer, res, 2, numStages, p, populationSize);
+        writeToFile(writer, res, outputMode, numStages, p, populationSize);
 
         writer.close();
 

@@ -2,15 +2,16 @@
 <Game>
 
     <mode>evolutionaryStabilityTest</mode>
-    <numRounds>1000</numRounds>
+    <numRounds>10000</numRounds>
     <epsilon>0.01</epsilon>
-    <numStages>5:5:50</numStages>
-    <winProbability>0.5:0.1:0.71</winProbability>
+    <numStages>1:1:50</numStages>
+    <winProbability>0.5:0.1:0.51</winProbability>
     <startMoney>100</startMoney>
-    <populationSize>2:2:10</populationSize>
-    <strategyStartValues>0.0:0.1:1.001</strategyStartValues>
+    <populationSize>25:5:25</populationSize>
+    <strategyStartValues>0.0:0.025:1.001</strategyStartValues>
     <strategyEndValues>0.0:0.01:1.001</strategyEndValues>
     <outputFileName>simulation output.txt</outputFileName>
+    <outputMode>1</outputMode>
 
     <!--
     <mode>payoffFunction</mode>
