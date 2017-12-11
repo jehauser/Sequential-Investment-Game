@@ -149,7 +149,9 @@ public class Simulation {
             }
         }
 
-        writeToFile(writer, res);
+
+
+        writeToFile(writer, res, 2, numStages, p, populationSize);
 
         writer.close();
 
@@ -245,23 +247,76 @@ public class Simulation {
         }
     };
 
-    private void writeToFile(PrintStream writer, boolean[][][][] res) {
 
-        for(boolean[][][] b1 : res) {
-            for(boolean[][] b2 : b1) {
-                for(boolean[] b3: b2) {
-                    for(boolean b4 : b3) {
-                        if(b4)
-                            writer.printf("1 ");
-                        else
-                            writer.printf("0 ");
+    private void writeToFile(PrintStream writer, boolean[][][][] res, int mode, List<Integer> numStages, List<Float> p, List<Integer> populationSize) {
+
+        // numStages | winProbability | populationSize | strategy
+
+        // variable populaiton size
+        if(mode == 0) {
+
+            for(int i=0; i<res.length; ++i) {
+                for(int j=0; j<res[0].length; ++j) {
+                    writer.printf("numberOfStages = %d, winProbability = %f\n", numStages.get(i), p.get(j));
+                    for(int k=0; k<res[0][0].length; ++k) {
+                        for(int s=0; s<res[0][0][0].length; ++s) {
+                            if(res[i][j][k][s])
+                                writer.printf("1 ");
+                            else
+                                writer.printf("0 ");
+                        }
+                        writer.println();
                     }
                     writer.println();
                 }
                 writer.println();
             }
-            writer.println();
+
         }
+
+        // variable number of stages
+        if(mode == 1) {
+
+            for(int k=0; k<res[0][0].length; ++k) {
+                for(int j=0; j<res[0].length; ++j) {
+                    writer.printf("populationSize = %d, winProbability = %f\n", populationSize.get(k), p.get(j));
+                    for(int i=0; i<res.length; ++i) {
+                        for(int s=0; s<res[0][0][0].length; ++s) {
+                            if(res[i][j][k][s])
+                                writer.printf("1 ");
+                            else
+                                writer.printf("0 ");
+                        }
+                        writer.println();
+                    }
+                    writer.println();
+                }
+                writer.println();
+            }
+
+        }
+
+        if(mode == 2) {
+
+            for(int k=0; k<res[0][0].length; ++k) {
+                for(int i=0; i<res.length; ++i) {
+                    writer.printf("populationSize = %d, numberOfStages = %d\n", populationSize.get(k), numStages.get(i));
+                    for(int j=0; j<res[0].length; ++j) {
+                        for(int s=0; s<res[0][0][0].length; ++s) {
+                            if(res[i][j][k][s])
+                                writer.printf("1 ");
+                            else
+                                writer.printf("0 ");
+                        }
+                        writer.println();
+                    }
+                    writer.println();
+                }
+                writer.println();
+            }
+
+        }
+
 
     }
 
