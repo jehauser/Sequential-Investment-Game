@@ -73,16 +73,24 @@ public class Simulation {
         else { throw new ExceptionInInitializerError("strategyEndValues not found in config"); }
 
         strategies = new ArrayList<>();
-        for(int i=0; i<strategyStartValues.size(); ++i) {
-            for(int j=0; j<1; j++){
+        for(int i=0; i<strategyStartValues.size(); ++i){
+            float offset = strategyStartValues.get(i);
+            float slope = 0;
+            System.out.printf("slope = %f | offset = %f " + i +"\n", slope, offset);
+            strategies.add(new TimeLinearStrategy(slope, offset));}
 
-                // TODO: FIX
-                float slope = (strategyEndValues.get(j) - strategyEndValues.get(i));
+        int c =0;
+        for(int i=0; i<strategyStartValues.size(); ++i) {
+            for(int j=0; j<strategyEndValues.size(); j++){
+                
+                float slope = (strategyEndValues.get(j) - strategyStartValues.get(i));
                 float offset = strategyStartValues.get(i);
-                System.out.printf("slope = %f | offset = %f\n", slope, offset);
-                strategies.add(new TimeLinearStrategy(slope, offset));
-            }
-        }
+                if (slope != 0){
+                    ++c;
+                    strategies.add(new TimeLinearStrategy(slope, offset));
+                    System.out.printf("slope = %f | offset = %f " + (c - 1 + strategyStartValues.size())  + "\n", slope, offset);
+                }
+            }}
 
         if(loadString(doc, "outputFileName") != null) { writer = new PrintStream(loadString(doc,"outputFileName")); }
 
@@ -669,7 +677,7 @@ public class Simulation {
             Document doc = dBuilder.parse(inputFile);
             doc.getDocumentElement().normalize();
 
-            executorService = Executors.newFixedThreadPool(16);
+            executorService = Executors.newFixedThreadPool(10);
 
             String mode = doc.getElementsByTagName("mode").item(0).getTextContent();
 

@@ -23,7 +23,7 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
+            <state relative-caret-position="425">
               <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -34,21 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Simulation.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Simulation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Simulation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="158" column="43" lean-forward="false" selection-start-line="158" selection-start-column="43" selection-end-line="158" selection-end-column="43" />
+            <state relative-caret-position="352">
+              <caret line="84" column="16" lean-forward="false" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#isEvolutionaryStable#0;class#Simulation#0" expanded="false" />
                 <element signature="class#isEvolutionaryStableCallable#0;class#Simulation#0" expanded="false" />
-                <element signature="e#12529#12554#0" expanded="false" />
-                <element signature="e#20350#20367#0" expanded="false" />
+                <element signature="method#nextStrategyProfile#0;class#Simulation#0" expanded="false" />
+                <element signature="method#simResult2BinaryTable#0;class#Simulation#0" expanded="false" />
+                <element signature="method#binaryTable2WinPercentage#0;class#Simulation#0" expanded="false" />
+                <element signature="e#20796#20813#0" expanded="false" />
                 <element signature="method#loadIntRange#0;class#Simulation#0" expanded="false" />
                 <element signature="method#loadFloatRange#0;class#Simulation#0" expanded="false" />
                 <element signature="method#loadString#0;class#Simulation#0" expanded="false" />
-                <element signature="method#Simulation#0;class#Simulation#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -57,7 +57,7 @@
       <file leaf-file-name="PayoffFunction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PayoffFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
+            <state relative-caret-position="255">
               <caret line="195" column="75" lean-forward="false" selection-start-line="195" selection-start-column="62" selection-end-line="195" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -72,7 +72,7 @@
       <file leaf-file-name="FutureTask.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/concurrent/FutureTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3440">
+            <state relative-caret-position="1462">
               <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
               <folding />
             </state>
@@ -82,7 +82,7 @@
       <file leaf-file-name="TimeLinearStrategy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TimeLinearStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="170">
               <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="49" />
               <folding />
             </state>
@@ -92,7 +92,7 @@
       <file leaf-file-name="ExecutorService.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/concurrent/ExecutorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9200">
+            <state relative-caret-position="3910">
               <caret line="264" column="14" lean-forward="false" selection-start-line="264" selection-start-column="14" selection-end-line="264" selection-end-column="14" />
               <folding />
             </state>
@@ -102,7 +102,7 @@
       <file leaf-file-name="ConstantStrategy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ConstantStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="170">
               <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding>
                 <element signature="e#90#91#0" expanded="true" />
@@ -117,18 +117,18 @@
       <file leaf-file-name="Strategy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Strategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
+            <state relative-caret-position="119">
               <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="374">
+              <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -137,7 +137,7 @@
       <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15880">
+            <state relative-caret-position="6749">
               <caret line="439" column="0" lean-forward="false" selection-start-line="439" selection-start-column="0" selection-end-line="439" selection-end-column="0" />
               <folding />
             </state>
@@ -170,16 +170,16 @@
         <option value="$PROJECT_DIR$/src/ConstantStrategy.java" />
         <option value="$PROJECT_DIR$/src/TimeLinearStrategy.java" />
         <option value="$PROJECT_DIR$/src/PayoffFunction.java" />
-        <option value="$PROJECT_DIR$/src/Simulation.java" />
         <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/src/Simulation.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-16" />
-    <option name="y" value="-16" />
-    <option name="width" value="3872" />
-    <option name="height" value="2092" />
+    <option name="x" value="-408" />
+    <option name="y" value="-14" />
+    <option name="width" value="3781" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -355,7 +355,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -363,60 +364,36 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4135135" sideWeight="0.503125" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.93945944" sideWeight="0.5042017" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4135135" sideWeight="0.496875" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3531283" sideWeight="0.49579832" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13541667" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39945945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39945945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4145946" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994792" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13541667" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39945945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -435,14 +412,14 @@
           <caret line="145" column="71" lean-forward="false" selection-start-line="145" selection-start-column="71" selection-end-line="145" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#isEvolutionaryStable#0;class#Simulation#0" expanded="false" />
             <element signature="class#isEvolutionaryStableCallable#0;class#Simulation#0" expanded="false" />
-            <element signature="e#12529#12554#0" expanded="false" />
-            <element signature="e#20350#20367#0" expanded="false" />
+            <element signature="method#nextStrategyProfile#0;class#Simulation#0" expanded="false" />
+            <element signature="method#simResult2BinaryTable#0;class#Simulation#0" expanded="false" />
+            <element signature="method#binaryTable2WinPercentage#0;class#Simulation#0" expanded="false" />
+            <element signature="e#20796#20813#0" expanded="false" />
             <element signature="method#loadIntRange#0;class#Simulation#0" expanded="false" />
             <element signature="method#loadFloatRange#0;class#Simulation#0" expanded="false" />
             <element signature="method#loadString#0;class#Simulation#0" expanded="false" />
-            <element signature="method#Simulation#0;class#Simulation#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -480,14 +457,14 @@
           <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#isEvolutionaryStable#0;class#Simulation#0" expanded="false" />
             <element signature="class#isEvolutionaryStableCallable#0;class#Simulation#0" expanded="false" />
-            <element signature="e#12529#12554#0" expanded="false" />
-            <element signature="e#20350#20367#0" expanded="false" />
+            <element signature="method#nextStrategyProfile#0;class#Simulation#0" expanded="false" />
+            <element signature="method#simResult2BinaryTable#0;class#Simulation#0" expanded="false" />
+            <element signature="method#binaryTable2WinPercentage#0;class#Simulation#0" expanded="false" />
+            <element signature="e#20796#20813#0" expanded="false" />
             <element signature="method#loadIntRange#0;class#Simulation#0" expanded="false" />
             <element signature="method#loadFloatRange#0;class#Simulation#0" expanded="false" />
             <element signature="method#loadString#0;class#Simulation#0" expanded="false" />
-            <element signature="method#Simulation#0;class#Simulation#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -525,14 +502,14 @@
           <caret line="84" column="116" lean-forward="false" selection-start-line="84" selection-start-column="116" selection-end-line="84" selection-end-column="116" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#isEvolutionaryStable#0;class#Simulation#0" expanded="false" />
             <element signature="class#isEvolutionaryStableCallable#0;class#Simulation#0" expanded="false" />
-            <element signature="e#12529#12554#0" expanded="false" />
-            <element signature="e#20350#20367#0" expanded="false" />
+            <element signature="method#nextStrategyProfile#0;class#Simulation#0" expanded="false" />
+            <element signature="method#simResult2BinaryTable#0;class#Simulation#0" expanded="false" />
+            <element signature="method#binaryTable2WinPercentage#0;class#Simulation#0" expanded="false" />
+            <element signature="e#20796#20813#0" expanded="false" />
             <element signature="method#loadIntRange#0;class#Simulation#0" expanded="false" />
             <element signature="method#loadFloatRange#0;class#Simulation#0" expanded="false" />
             <element signature="method#loadString#0;class#Simulation#0" expanded="false" />
-            <element signature="method#Simulation#0;class#Simulation#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -555,14 +532,14 @@
           <caret line="74" column="41" lean-forward="true" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#isEvolutionaryStable#0;class#Simulation#0" expanded="false" />
             <element signature="class#isEvolutionaryStableCallable#0;class#Simulation#0" expanded="false" />
-            <element signature="e#12529#12554#0" expanded="false" />
-            <element signature="e#20350#20367#0" expanded="false" />
+            <element signature="method#nextStrategyProfile#0;class#Simulation#0" expanded="false" />
+            <element signature="method#simResult2BinaryTable#0;class#Simulation#0" expanded="false" />
+            <element signature="method#binaryTable2WinPercentage#0;class#Simulation#0" expanded="false" />
+            <element signature="e#20796#20813#0" expanded="false" />
             <element signature="method#loadIntRange#0;class#Simulation#0" expanded="false" />
             <element signature="method#loadFloatRange#0;class#Simulation#0" expanded="false" />
             <element signature="method#loadString#0;class#Simulation#0" expanded="false" />
-            <element signature="method#Simulation#0;class#Simulation#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -608,14 +585,14 @@
           <caret line="29" column="56" lean-forward="false" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#isEvolutionaryStable#0;class#Simulation#0" expanded="false" />
             <element signature="class#isEvolutionaryStableCallable#0;class#Simulation#0" expanded="false" />
-            <element signature="e#12529#12554#0" expanded="false" />
-            <element signature="e#20350#20367#0" expanded="false" />
+            <element signature="method#nextStrategyProfile#0;class#Simulation#0" expanded="false" />
+            <element signature="method#simResult2BinaryTable#0;class#Simulation#0" expanded="false" />
+            <element signature="method#binaryTable2WinPercentage#0;class#Simulation#0" expanded="false" />
+            <element signature="e#20796#20813#0" expanded="false" />
             <element signature="method#loadIntRange#0;class#Simulation#0" expanded="false" />
             <element signature="method#loadFloatRange#0;class#Simulation#0" expanded="false" />
             <element signature="method#loadString#0;class#Simulation#0" expanded="false" />
-            <element signature="method#Simulation#0;class#Simulation#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -646,14 +623,14 @@
           <caret line="58" column="14" lean-forward="false" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#isEvolutionaryStable#0;class#Simulation#0" expanded="false" />
             <element signature="class#isEvolutionaryStableCallable#0;class#Simulation#0" expanded="false" />
-            <element signature="e#12529#12554#0" expanded="false" />
-            <element signature="e#20350#20367#0" expanded="false" />
+            <element signature="method#nextStrategyProfile#0;class#Simulation#0" expanded="false" />
+            <element signature="method#simResult2BinaryTable#0;class#Simulation#0" expanded="false" />
+            <element signature="method#binaryTable2WinPercentage#0;class#Simulation#0" expanded="false" />
+            <element signature="e#20796#20813#0" expanded="false" />
             <element signature="method#loadIntRange#0;class#Simulation#0" expanded="false" />
             <element signature="method#loadFloatRange#0;class#Simulation#0" expanded="false" />
             <element signature="method#loadString#0;class#Simulation#0" expanded="false" />
-            <element signature="method#Simulation#0;class#Simulation#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -754,7 +731,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15880">
+        <state relative-caret-position="6749">
           <caret line="439" column="0" lean-forward="false" selection-start-line="439" selection-start-column="0" selection-end-line="439" selection-end-column="0" />
           <folding />
         </state>
@@ -762,7 +739,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ConstantStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="170">
           <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
             <element signature="e#90#91#0" expanded="true" />
@@ -775,7 +752,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/concurrent/ExecutorService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9200">
+        <state relative-caret-position="3910">
           <caret line="264" column="14" lean-forward="false" selection-start-line="264" selection-start-column="14" selection-end-line="264" selection-end-column="14" />
           <folding />
         </state>
@@ -783,7 +760,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
+        <state relative-caret-position="425">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -795,7 +772,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/concurrent/FutureTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3440">
+        <state relative-caret-position="1462">
           <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
           <folding />
         </state>
@@ -803,7 +780,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TimeLinearStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="170">
           <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="49" />
           <folding />
         </state>
@@ -811,7 +788,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Strategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
@@ -819,7 +796,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PayoffFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
+        <state relative-caret-position="255">
           <caret line="195" column="75" lean-forward="false" selection-start-line="195" selection-start-column="62" selection-end-line="195" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -830,29 +807,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Simulation.java">
+    <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="158" column="43" lean-forward="false" selection-start-line="158" selection-start-column="43" selection-end-line="158" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#isEvolutionaryStable#0;class#Simulation#0" expanded="false" />
-            <element signature="class#isEvolutionaryStableCallable#0;class#Simulation#0" expanded="false" />
-            <element signature="e#12529#12554#0" expanded="false" />
-            <element signature="e#20350#20367#0" expanded="false" />
-            <element signature="method#loadIntRange#0;class#Simulation#0" expanded="false" />
-            <element signature="method#loadFloatRange#0;class#Simulation#0" expanded="false" />
-            <element signature="method#loadString#0;class#Simulation#0" expanded="false" />
-            <element signature="method#Simulation#0;class#Simulation#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
+    <entry file="file://$PROJECT_DIR$/src/Simulation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="352">
+          <caret line="84" column="16" lean-forward="false" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#isEvolutionaryStableCallable#0;class#Simulation#0" expanded="false" />
+            <element signature="method#nextStrategyProfile#0;class#Simulation#0" expanded="false" />
+            <element signature="method#simResult2BinaryTable#0;class#Simulation#0" expanded="false" />
+            <element signature="method#binaryTable2WinPercentage#0;class#Simulation#0" expanded="false" />
+            <element signature="e#20796#20813#0" expanded="false" />
+            <element signature="method#loadIntRange#0;class#Simulation#0" expanded="false" />
+            <element signature="method#loadFloatRange#0;class#Simulation#0" expanded="false" />
+            <element signature="method#loadString#0;class#Simulation#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
